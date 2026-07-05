@@ -81,3 +81,4 @@ This software is developed by **Furkan** and all rights are reserved. This is a 
 
 ### © Telif Hakkı ve Lisans
 Bu yazılım **Furkan** tarafından geliştirilmiştir ve tüm hakları saklıdır. Bu proje tamamen **kapalı kaynak (closed-source)** ve özel (proprietary) bir yazılımdır. Değiştirilmesi, yeniden dağıtılması ve ticari amaçlarla kullanılması **kesinlikle yasaktır**. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
+ 

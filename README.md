@@ -47,7 +47,9 @@ Analyze production costs, profit margins, and break-even prices. Includes **buil
 - Building upgrade projection with production increase estimates
 
 <p align="center">
-  <img src="assets/production-helper.png" alt="Production Helper showing production costs, profit analysis with market sell and contract sell margins, and building upgrade projection" width="320">
+  <img src="assets/production-helper-active-production-available.png" alt="Production Helper showing production costs, profit analysis, and active production status" width="320">
+  &nbsp;&nbsp;
+  <img src="assets/production-helper-active-production-not-available.png" alt="Production Helper showing production costs and profit analysis without active production" width="320">
 </p>
 
 ---

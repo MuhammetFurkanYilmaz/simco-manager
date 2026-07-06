@@ -204,17 +204,21 @@ The extension automatically detects your Sim Companies language setting.
 
 > 🛒 **Chrome Web Store** listing is coming soon! In the meantime, you can install it manually:
 
-### Manual Installation (All Chromium Browsers)
+### Manual Installation (Chromium Browsers & Firefox)
 
-Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, and other Chromium-based browsers.
+Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, **Mozilla Firefox**, and other modern browsers.
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the latest `simco-manager-v1.1.8.zip` file.
+2. Download the appropriate `.zip` file for your browser (`simco-manager-chrome-v1.1.8.zip` or `simco-manager-firefox-v1.1.8.zip`).
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
-4. Open your browser and navigate to `chrome://extensions/` (or `edge://extensions/` for Edge).
-5. Enable **"Developer mode"** using the toggle in the top-right corner.
-6. Click **"Load unpacked"** and select the folder you extracted.
-7. Navigate to [simcompanies.com](https://www.simcompanies.com/) — you'll see the SimCo Manager sidebar on the right!
+4. **For Chrome/Edge/Brave/Vivaldi/Opera:**
+   - Open your browser and navigate to `chrome://extensions/` (or `edge://extensions/` for Edge).
+   - Enable **"Developer mode"** using the toggle in the top-right corner.
+   - Click **"Load unpacked"** and select the folder you extracted.
+5. **For Mozilla Firefox:**
+   - Open your browser and navigate to `about:debugging#/runtime/this-firefox`.
+   - Click **"Load Temporary Add-on..."** and select the `manifest.json` file inside the extracted folder.
+6. Navigate to [simcompanies.com](https://www.simcompanies.com/) — you'll see the SimCo Manager sidebar on the right!
 
 ### Updating to a New Version
 
@@ -369,17 +373,21 @@ Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluştu
 
 > 🛒 **Chrome Web Mağazası** listesi yakında yayınlanacak! Şimdilik manuel kurulum yapabilirsiniz:
 
-### Manuel Kurulum (Tüm Chromium Tarayıcılar)
+### Manuel Kurulum (Chromium Tarayıcılar ve Firefox)
 
-**Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi** ve diğer Chromium tabanlı tarayıcılarda çalışır.
+**Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, **Mozilla Firefox** ve diğer modern tarayıcılarda çalışır.
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. En güncel `simco-manager-v1.1.8.zip` dosyasını indirin.
+2. Tarayıcınıza uygun en güncel `.zip` dosyasını indirin (`simco-manager-chrome-v1.1.8.zip` veya `simco-manager-firefox-v1.1.8.zip`).
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
-4. Tarayıcınızda `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`).
-5. Sağ üst köşeden **"Geliştirici modu"**nu açın.
-6. **"Paketlenmemiş öğe yükle"** butonuna tıklayıp çıkardığınız klasörü seçin.
-7. [simcompanies.com](https://www.simcompanies.com/) adresine gidin — sağ tarafta SimCo Manager menüsünü göreceksiniz!
+4. **Chrome/Edge/Brave/Vivaldi/Opera için:**
+   - Tarayıcınızda `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`).
+   - Sağ üst köşeden **"Geliştirici modu"**nu açın.
+   - **"Paketlenmemiş öğe yükle"** butonuna tıklayıp çıkardığınız klasörü seçin.
+5. **Mozilla Firefox için:**
+   - Tarayıcınızda `about:debugging#/runtime/this-firefox` adresine gidin.
+   - **"Geçici Eklenti Yükle..."** butonuna tıklayıp çıkardığınız klasörün içindeki `manifest.json` dosyasını seçin.
+6. [simcompanies.com](https://www.simcompanies.com/) adresine gidin — sağ tarafta SimCo Manager menüsünü göreceksiniz!
 
 ### Güncelleme
 

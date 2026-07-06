@@ -224,7 +224,8 @@ Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivald
 
 1. Download the new `.zip` from [Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases).
 2. Extract it to the **same folder** (overwrite existing files).
-3. Go to `chrome://extensions/` and click the **reload** (↻) button on SimCo Manager.
+3. **For Chrome/Edge/Brave/Opera:** Go to `chrome://extensions/` and click the **reload** (↻) button on SimCo Manager.
+4. **For Firefox:** Go to `about:debugging#/runtime/this-firefox` and click **Reload** next to the extension.
 
 ---
 
@@ -250,7 +251,7 @@ Yes! SimCo Manager is completely free to use. It is a proprietary (closed-source
 <details>
 <summary><strong>Does it work on Firefox?</strong></summary>
 <br>
-Currently, SimCo Manager is built for Chromium-based browsers only (Chrome, Edge, Brave, Opera, Vivaldi). Firefox support may be considered in the future.
+Yes! Firefox is officially supported. See the installation instructions above for how to load it as a temporary add-on.
 </details>
 
 <details>
@@ -393,7 +394,8 @@ Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluştu
 
 1. [Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases) sayfasından yeni `.zip` dosyasını indirin.
 2. **Aynı klasöre** çıkartın (mevcut dosyaların üzerine yazın).
-3. `chrome://extensions/` sayfasında SimCo Manager'ın **yenile** (↻) butonuna tıklayın.
+3. **Chrome/Edge/Brave/Opera için:** `chrome://extensions/` sayfasında SimCo Manager'ın **yenile** (↻) butonuna tıklayın.
+4. **Firefox için:** `about:debugging#/runtime/this-firefox` sayfasında eklentinin yanındaki **Yenile (Reload)** butonuna tıklayın.
 
 ---
 

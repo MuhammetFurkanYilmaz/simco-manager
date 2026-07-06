@@ -209,7 +209,7 @@ The extension automatically detects your Sim Companies language setting.
 Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, and other Chromium-based browsers.
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the latest `simco-manager-v1.1.7.zip` file.
+2. Download the latest `simco-manager-v1.1.8.zip` file.
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
 4. Open your browser and navigate to `chrome://extensions/` (or `edge://extensions/` for Edge).
 5. Enable **"Developer mode"** using the toggle in the top-right corner.
@@ -374,7 +374,7 @@ Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluştu
 **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi** ve diğer Chromium tabanlı tarayıcılarda çalışır.
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. En güncel `simco-manager-v1.1.7.zip` dosyasını indirin.
+2. En güncel `simco-manager-v1.1.8.zip` dosyasını indirin.
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
 4. Tarayıcınızda `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`).
 5. Sağ üst köşeden **"Geliştirici modu"**nu açın.

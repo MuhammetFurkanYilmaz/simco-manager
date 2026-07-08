@@ -1,11 +1,3 @@
-## 🌟 New Features
+## 🔧 Hotfix v1.1.14
 
-- **Global Headhunter (Executive Search)**: No more clicking through individual company profiles! You can now scan all talented executives in the game from a single screen. Filter by Role (COO, CFO, etc.) and Age (Youngest/Oldest) to find the perfect match instantly.
-- **Realm Stats Dashboard**: Added a new live panel that shows the exact Economic Phase of your server and tracks the most and least built buildings in real-time.
-- **Welcome Message**: First-time users will now be greeted with a stylish welcome screen introducing the extension's features.
-
-## 🛠️ Improvements & Fixes
-
-- **Quality-Specific VWAP Analysis**: The market analysis tool has been completely rebuilt. Instead of generic averages, it now calculates the average price specifically for the exact quality you are looking at.
-- **Multi-Language (i18n) Fixes**: Fixed an issue causing translation placeholders to get stuck on the English interface. The extension now works flawlessly across all 12 supported languages.
-- **Instant Cache Updates**: Improved the cache clearing algorithm. When the extension is updated, your local data will refresh instantly without getting stuck on old cached values.
+- **Welcome Screen Fix**: Fixed a critical bug where the "Get Started" button on the welcome screen was invisible, preventing new users from dismissing the screen. Clicking anywhere outside the modal now also dismisses it as a fallback.

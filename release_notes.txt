@@ -1,15 +1,11 @@
-﻿Release v1.1.12 - Top Retail Helper & Update Notifier
+## 🌟 New Features
 
-## What's New
-* **Top Retail Helper**: A new comprehensive tool for retail businesses (Grocery, Gas Station, Fashion, etc.) that calculates maximum profit by integrating Economy Phase, Admin Overhead, and Sales Bonus.
-* **Auto-Pricing via Encyclopedia & Exchange**: The extension now seamlessly collects and stores up-to-date market prices when you visit the Encyclopedia or Exchange pages.
-* **Stale Data Warnings**: Never trade on old data. Get smart warnings if your market prices are missing or older than 4 hours.
-* **Background Data Collection**: Added integration with cooperinc.xyz to seamlessly collect price analytics in the background without freezing your game.
-* **Update Notifier**: The extension now automatically checks for updates and displays a "What's New" notification inside the game when you receive a new version!
+- **Global Headhunter (Executive Search)**: No more clicking through individual company profiles! You can now scan all talented executives in the game from a single screen. Filter by Role (COO, CFO, etc.) and Age (Youngest/Oldest) to find the perfect match instantly.
+- **Realm Stats Dashboard**: Added a new live panel that shows the exact Economic Phase of your server and tracks the most and least built buildings in real-time.
+- **Welcome Message**: First-time users will now be greeted with a stylish welcome screen introducing the extension's features.
 
-## Yenilikler (Turkish)
-* **Gelişmiş Perakende (Top Retail) Asistanı**: Market, Benzin İstasyonu, Giyim Mağazası gibi binalarınıza özel olarak en çok kâr getiren ürünleri, Ekonomi Evresi, İdari Gider ve Satış Bonusu dikkate alarak hesaplayan yeni bir araç eklendi.
-* **Otomatik ve Akıllı Fiyat Takibi**: Ansiklopedi (Encyclopedia) veya Borsa (Exchange) sayfalarında gezinirken piyasadaki en güncel fiyatlar otomatik olarak arka planda kaydedilir.
-* **Bayat Veri Uyarısı**: Kaydedilen veriler 4 saatten eskiyse veya henüz toplanmamışsa, "fiyatları güncellemeniz" için uyarılar eklendi.
-* **Arka Plan Veri Senkronizasyonu**: cooperinc.xyz altyapısı kullanılarak oyununuzu dondurmadan perakende fiyatlarını optimize eden arka plan (scraper) entegrasyonu tamamlandı.
-* **Güncelleme Bildirimleri**: Eklenti yeni bir sürüm aldığında, oyuna girdiğinizde otomatik olarak "Neler Yeni?" bildirim penceresiyle karşılaşacaksınız!
+## 🛠️ Improvements & Fixes
+
+- **Quality-Specific VWAP Analysis**: The market analysis tool has been completely rebuilt. Instead of generic averages, it now calculates the average price specifically for the exact quality you are looking at.
+- **Multi-Language (i18n) Fixes**: Fixed an issue causing translation placeholders to get stuck on the English interface. The extension now works flawlessly across all 12 supported languages.
+- **Instant Cache Updates**: Improved the cache clearing algorithm. When the extension is updated, your local data will refresh instantly without getting stuck on old cached values.

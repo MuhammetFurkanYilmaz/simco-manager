@@ -1,3 +1,10 @@
-## 🔧 Hotfix v1.1.17
+## 🎉 v1.1.18 - The Big Contracts Update & Stability Fix
 
-- **Build Pipeline Final Fix:** Reconfigured the automated deployment pipeline to use Windows (instead of Ubuntu) to match the local build environment perfectly. This resolves the remaining obfuscation inconsistencies that were causing random runtime errors in the Chrome version on GitHub Releases.
+### 🚀 Incoming Contracts Rework
+* **New Ranking System:** Contracts are now ranked by **Profit/Day** instead of ROI, giving you a much more accurate picture of which contracts are truly the most profitable to sell at retail.
+* **Custom Sales Speed:** Added a new **"Sales Speed Bonus (%)"** input at the top of the page. Enter your total bonus from your HQ here to make the Profit/Day calculations highly accurate!
+* **VWAP Integration:** Quality-based retail prices and "Cheaper than market" comparisons are now calculated using true market VWAP data rather than just the cheapest market listing.
+* **Cash Warning:** Contracts that cost more than your current available cash will now display a subtle visual warning, helping you avoid accidental rejections.
+
+### 🔧 Stability Fixes
+* **Build Pipeline Resolved:** The uncommitted features from previous patches are now fully integrated and deployed. The pipeline perfectly mirrors the local Windows environment, eliminating runtime errors in Chrome caused by obfuscation inconsistencies.

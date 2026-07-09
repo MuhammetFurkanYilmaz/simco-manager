@@ -1,3 +1,3 @@
-## 🔧 Hotfix v1.1.16
+## 🔧 Hotfix v1.1.17
 
-- **Build Pipeline Fix:** Resolved an issue with the GitHub Actions deployment process that caused the `.zip` files in the previous release to contain corrupted/unobfuscated code, which lead to runtime errors for new installations. The extension should now work perfectly again when downloaded from GitHub Releases.
+- **Build Pipeline Final Fix:** Reconfigured the automated deployment pipeline to use Windows (instead of Ubuntu) to match the local build environment perfectly. This resolves the remaining obfuscation inconsistencies that were causing random runtime errors in the Chrome version on GitHub Releases.

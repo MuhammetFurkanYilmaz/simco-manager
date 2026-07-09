@@ -1,6 +1,6 @@
 # SimCo Manager — The Ultimate Sim Companies Browser Extension
 
-[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.16-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
+[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.17-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![12 Languages](https://img.shields.io/badge/Languages-12-orange?style=for-the-badge)](#-supported-languages)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/blob/main/LICENSE)
@@ -209,7 +209,7 @@ The extension automatically detects your Sim Companies language setting.
 Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, **Mozilla Firefox**, and other modern browsers.
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the appropriate `.zip` file for your browser (`simco-manager-chrome-v1.1.16.zip` or `simco-manager-firefox-v1.1.16.zip`).
+2. Download the appropriate `.zip` file for your browser (`simco-manager-chrome-v1.1.17.zip` or `simco-manager-firefox-v1.1.17.zip`).
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
 4. **For Chrome/Edge/Brave/Vivaldi/Opera:**
    - Open your browser and navigate to `chrome://extensions/` (or `edge://extensions/` for Edge).
@@ -379,7 +379,7 @@ Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluştu
 **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, **Mozilla Firefox** ve diğer modern tarayıcılarda çalışır.
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. Tarayıcınıza uygun en güncel `.zip` dosyasını indirin (`simco-manager-chrome-v1.1.16.zip` veya `simco-manager-firefox-v1.1.16.zip`).
+2. Tarayıcınıza uygun en güncel `.zip` dosyasını indirin (`simco-manager-chrome-v1.1.17.zip` veya `simco-manager-firefox-v1.1.17.zip`).
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
 4. **Chrome/Edge/Brave/Vivaldi/Opera için:**
    - Tarayıcınızda `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`).

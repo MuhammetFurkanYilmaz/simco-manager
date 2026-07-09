@@ -1,9 +1,3 @@
-### 🚀 What's New!
+## 🔧 Hotfix v1.1.16
 
-* **Smarter Contract Rankings:** Incoming contracts are now ranked by **Profit/Day** instead of ROI, so you can instantly spot the absolute best deals for your retail stores!
-* **Personalized Profit Calculations:** Added a new **"Sales Speed Bonus (%)"** input! Just enter your HQ sales speed bonus to get perfectly accurate Profit/Day estimates.
-* **Better Market Valuations:** Contract price comparisons now use true market averages (VWAP) that match the exact quality of the contract, making "Cheaper than market" alerts much more reliable. 
-* **Cash Flow Protection:** Contracts that cost more than your currently available cash will now clearly display an "⚠️ Insufficient Cash" warning.
-* **Light Theme Fixes:** Fixed invisible text issues for Light Theme users. (Though you might see a cheeky little reminder recommending Dark Theme! 😉)
-* **Global Fixes:** Squashed bugs that caused incorrect VWAP calculations and broken text variables for players using the game in non-English languages.
-* **Polished & Ready:** All 11 supported languages have been fully updated. Plus, look out for fun new support messages and a subtle version indicator in the bottom corner!
+- **Build Pipeline Fix:** Resolved an issue with the GitHub Actions deployment process that caused the `.zip` files in the previous release to contain corrupted/unobfuscated code, which lead to runtime errors for new installations. The extension should now work perfectly again when downloaded from GitHub Releases.

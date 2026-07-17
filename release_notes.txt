@@ -1,7 +1,6 @@
-﻿## 🎉 v1.1.19 - Financial Clarity & UI Fixes
+## 🎉 v1.1.21 - Purchase Builder Integration & UI Improvements
 
 ### 🚀 Improvements
-* **Financial Alerts Clarity:** Added informative tooltips (❓) to the Cashflow warnings (Net Negative, Operating Negative, Cash Drain, etc.) to help clarify exactly what each alert means and how it's calculated in real-time.
-
-### 🐛 Bug Fixes
-* **Warehouse Pricing Fix:** Resolved a critical parsing bug where items costing over ,000 (e.g., Laptops) were miscalculated in languages that use commas as decimal separators (like Turkish and German), which previously caused astronomical and incorrect profit percentage displays.
+* **Warehouse Inventory Integration:** The `+Reqs` popup in the Purchase Builder now displays real-time warehouse stock for required materials, complete with color-coded status indicators (Green, Yellow, Red).
+* **Smart "Add Missing" Feature:** Added a new `Add Missing` button that automatically subtracts your current warehouse inventory and only adds the exact quantities you are missing to the Purchase Builder.
+* **Sidebar UI/UX:** Added vertical scrolling support to the extension's sidebar, ensuring full accessibility and seamless scrolling on smaller screens or lower resolutions.

@@ -1,4 +1,4 @@
-## 🎉 v1.1.19 - Financial Clarity & UI Fixes
+﻿## 🎉 v1.1.19 - Financial Clarity & UI Fixes
 
 ### 🚀 Improvements
 * **Financial Alerts Clarity:** Added informative tooltips (❓) to the Cashflow warnings (Net Negative, Operating Negative, Cash Drain, etc.) to help clarify exactly what each alert means and how it's calculated in real-time.

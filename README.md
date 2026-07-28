@@ -1,7 +1,7 @@
 # SimCo Manager — The Best Browser Extension for Sim Companies
 
-[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.21-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
-[![Chrome & Firefox](https://img.shields.io/badge/Chrome_%26_Firefox-Supported-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
+[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.22-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
+[![Chrome](https://img.shields.io/badge/Chrome_%26_Edge-Supported-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![12 Languages](https://img.shields.io/badge/Languages-12-orange?style=for-the-badge)](#-supported-languages)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/blob/main/LICENSE)
@@ -352,38 +352,34 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 
 ### Manual Installation (Chromium Browsers & Firefox)
 
-Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, **Mozilla Firefox**, and other modern browsers.
+Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, and other Chromium-based modern browsers.
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the appropriate `.zip` file for your browser (`simco-manager-chrome-v1.1.21.zip` or `simco-manager-firefox-v1.1.21.zip`).
+2. Download the `simco-manager-chrome-v1.1.22.zip` file.
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
 4. **For Chrome/Edge/Brave/Vivaldi/Opera:**
    - Open your browser and navigate to `chrome://extensions/` (or `edge://extensions/` for Edge).
    - Enable **"Developer mode"** using the toggle in the top-right corner.
    - Click **"Load unpacked"** and select the folder you extracted.
-5. **For Mozilla Firefox:**
-   - Open your browser and navigate to `about:debugging#/runtime/this-firefox`.
-   - Click **"Load Temporary Add-on..."** and select the `manifest.json` file inside the extracted folder.
-6. Navigate to [simcompanies.com](https://www.simcompanies.com/) — you'll see the SimCo Manager sidebar on the right!
+5. Navigate to [simcompanies.com](https://www.simcompanies.com/) — you'll see the SimCo Manager sidebar on the right!
 
 ### Updating to a New Version
 
 1. Download the new `.zip` from [Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases).
 2. Extract it to the **same folder** (overwrite existing files).
-3. **For Chrome/Edge/Brave/Opera:** Go to `chrome://extensions/` and click the **reload** (↻) button on SimCo Manager.
-4. **For Firefox:** Go to `about:debugging#/runtime/this-firefox` and click **Reload** next to the extension.
+3. Go to `chrome://extensions/` and click the **reload** (↻) button on SimCo Manager.
 
 ---
 
-## 🔒 Privacy & Permissions
+## 🔒 Permissions & Security Explained
 
-SimCo Manager respects your privacy:
+To provide the most advanced analytical experience, SimCo Manager utilizes specific browser permissions and industry-standard security practices. We believe in absolute transparency:
 
-- **No data collection** — all data stays in your browser's local storage.
-- **No external tracking** — no analytics, no telemetry, no cookies.
-- **No account required** — works instantly after installation.
-- **Minimal permissions** — only `storage` (to save your settings), `alarms` and `notifications` (for building alarms), and GitHub API access (for update checks).
-- **Sim Companies API only** — the extension only reads publicly available game data. It does **not** automate any gameplay actions.
+- **`storage`**: Used to save your local UI preferences (Dark/Light theme, market alert thresholds, and cached layouts) directly on your device. This ensures a fast, backend-free experience for your settings.
+- **`*://*/*` (Broad Host Permissions)**: SimCo Manager relies on external community APIs (such as *api.simcotools.com* for VWAP data). Requesting broad host permissions upfront ensures that when we add support for new community APIs or when these endpoints change domains, the extension will continue to work seamlessly without throwing network errors or requiring you to immediately reinstall to grant new domain-specific permissions.
+- **Domain Specific Content Scripts (`simcompanies.com` & `cooperinc.xyz`)**: The extension strictly injects its UI overlay scripts ONLY into `simcompanies.com` (the main game) and `cooperinc.xyz` (the most popular community retail-calculator tool). The `cooper_content.js` script exists specifically to provide seamless retail data synchronization between the game and the Cooper Inc calculator, automatically populating forms to save you time. **No other websites are injected or tracked.**
+- **Code Minification & Obfuscation**: You may notice our production code is heavily minified and obfuscated. SimCo Manager includes proprietary features, such as our advanced VWAP calculation logic, custom historical market prediction algorithms, and premium UI components. We employ standard Rollup/Vite obfuscation plugins in our CI/CD pipeline solely to protect our Intellectual Property (IP) from being cloned and redistributed by copycat extensions on the Chrome Web Store.
+- **Sim Companies API only** — the extension reads publicly available game data. It does **not** automate any core gameplay actions.
 
 ---
 
@@ -625,35 +621,33 @@ Oyunun temasına otomatik uyum — her iki modda da mükemmel görünüm.
 
 ### Manuel Kurulum (Chromium Tarayıcılar ve Firefox)
 
-**Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, **Mozilla Firefox** ve diğer modern tarayıcılarda çalışır.
+**Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi** ve diğer Chromium tabanlı modern tarayıcılarda çalışır.
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. Tarayıcınıza uygun en güncel `.zip` dosyasını indirin (`simco-manager-chrome-v1.1.21.zip` veya `simco-manager-firefox-v1.1.21.zip`).
+2. En güncel `simco-manager-chrome-v1.1.22.zip` dosyasını indirin.
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
 4. **Chrome/Edge/Brave/Vivaldi/Opera için:**
    - Tarayıcınızda `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`).
    - Sağ üst köşeden **"Geliştirici modu"**nu açın.
-   - **"Paketlenmemiş öğe yükle"** butonuna tıklayıp çıkardığınız klasörü seçin.
-5. **Mozilla Firefox için:**
-   - Tarayıcınızda `about:debugging#/runtime/this-firefox` adresine gidin.
-   - **"Geçici Eklenti Yükle..."** butonuna tıklayıp çıkardığınız klasörün içindeki `manifest.json` dosyasını seçin.
-6. [simcompanies.com](https://www.simcompanies.com/) adresine gidin — sağ tarafta SimCo Manager menüsünü göreceksiniz!
+   - **"Paketlenmemiş öğe yükle" (Load unpacked)** butonuna tıklayın ve çıkarttığınız klasörü seçin.
+5. [simcompanies.com](https://www.simcompanies.com/) adresine gidin — sağ tarafta SimCo Manager menüsünü göreceksiniz!
 
 ### Güncelleme
 
 1. [Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases) sayfasından yeni `.zip` dosyasını indirin.
 2. **Aynı klasöre** çıkartın (mevcut dosyaların üzerine yazın).
-3. **Chrome/Edge/Brave/Opera için:** `chrome://extensions/` sayfasında SimCo Manager'ın **yenile** (↻) butonuna tıklayın.
-4. **Firefox için:** `about:debugging#/runtime/this-firefox` sayfasında eklentinin yanındaki **Yenile (Reload)** butonuna tıklayın.
+3. `chrome://extensions/` sayfasına gidin ve SimCo Manager'ın **yenile** (↻) butonuna tıklayın.
 
 ---
 
-## 🔒 Gizlilik ve İzinler
+## 🔒 İzinler ve Güvenlik Açıklaması
 
-- **Veri toplama yok** — tüm veriler tarayıcınızın yerel deposunda kalır.
-- **Harici izleme yok** — analitik, telemetri veya çerez gönderilmez.
-- **Hesap gerektirmez** — kurulumdan sonra hemen çalışır.
-- **Minimum izin** — yalnızca `storage`, `alarms`, `notifications` ve GitHub API erişimi.
+SimCo Manager, en gelişmiş analiz deneyimini sunmak için belirli tarayıcı izinlerini ve endüstri standardı güvenlik uygulamalarını kullanır. Şeffaflığa önem veriyoruz:
+
+- **`storage`**: Yerel UI tercihlerinizi (Koyu/Açık tema, piyasa alarm sınırları ve önbelleğe alınmış düzenler) doğrudan cihazınıza kaydetmek için kullanılır. Bu, ayarlarınız için hızlı ve arka uç gerektirmeyen bir deneyim sağlar.
+- **`*://*/*` (Geniş Ağ İzinleri)**: SimCo Manager, VWAP verileri için *api.simcotools.com* gibi harici topluluk API'lerine dayanır. Başlangıçta geniş ağ izinlerinin istenmesi, yeni topluluk API'leri eklediğimizde veya bu adresler değiştiğinde eklentinin ağ hataları vermeden kesintisiz çalışmaya devam etmesini sağlar. Böylece her yeni özellik eklendiğinde izin sorunlarıyla karşılaşmazsınız.
+- **Etki Alanına Özgü İçerik Komut Dosyaları (`simcompanies.com` ve `cooperinc.xyz`)**: Eklenti, UI katman betiklerini SADECE `simcompanies.com` (ana oyun) ve `cooperinc.xyz` (en popüler topluluk perakende hesaplayıcı aracı) içine yerleştirir. `cooper_content.js` betiği, oyun ile Cooper Inc hesaplayıcısı arasında sorunsuz perakende veri senkronizasyonu sağlamak ve size zaman kazandırmak için formları otomatik olarak doldurmak üzere özel olarak tasarlanmıştır. **Başka hiçbir web sitesine kod enjekte edilmez veya izlenmez.**
+- **Kod Küçültme ve Karmaşıklaştırma (Obfuscation)**: Üretim kodumuzun büyük ölçüde küçültüldüğünü ve karmaşıklaştırıldığını fark edebilirsiniz. SimCo Manager, gelişmiş VWAP hesaplama mantığımız, özel geçmiş piyasa tahmin algoritmalarımız ve premium UI bileşenleri gibi özel özellikler içerir. Chrome Web Mağazası'ndaki taklitçi uzantılar tarafından kopyalanıp yeniden dağıtılmasını önlemek ve Fikri Mülkiyetimizi (IP) korumak amacıyla CI/CD süreçlerimizde standart Rollup/Vite şifreleme eklentileri kullanıyoruz.
 
 ---
 

@@ -1,6 +1,10 @@
-## 🎉 v1.1.21 - Purchase Builder Integration & UI Improvements
+## 🎉 v1.1.22 - Core Stability & Bug Fixes
 
 ### 🚀 Improvements
-* **Warehouse Inventory Integration:** The `+Reqs` popup in the Purchase Builder now displays real-time warehouse stock for required materials, complete with color-coded status indicators (Green, Yellow, Red).
-* **Smart "Add Missing" Feature:** Added a new `Add Missing` button that automatically subtracts your current warehouse inventory and only adds the exact quantities you are missing to the Purchase Builder.
-* **Sidebar UI/UX:** Added vertical scrolling support to the extension's sidebar, ensuring full accessibility and seamless scrolling on smaller screens or lower resolutions.
+* **Performance Optimization:** We've drastically reduced the frequency of background data synchronization (now every 24 hours), significantly reducing CPU and memory usage to ensure your browser runs smoother.
+* **Bug Fixes:**
+  * Resolved various UI rendering issues for a cleaner visual experience.
+  * Fixed an issue causing calculation problems in the Financials Helper.
+* **New Features:**
+  * Added a direct Feedback Button! You can now easily send us your thoughts, report issues, or suggest new features right from the extension.
+  * You can now upload `.csv` files directly to the Financials Helper for offline data analysis and reporting.

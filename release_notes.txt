@@ -1,10 +1,7 @@
-## 🎉 v1.1.22 - Core Stability & Bug Fixes
+## 🎉 v1.1.23 - Support System & UI Enhancements
 
 ### 🚀 Improvements
-* **Performance Optimization:** We've drastically reduced the frequency of background data synchronization (now every 24 hours), significantly reducing CPU and memory usage to ensure your browser runs smoother.
-* **Bug Fixes:**
-  * Resolved various UI rendering issues for a cleaner visual experience.
-  * Fixed an issue causing calculation problems in the Financials Helper.
-* **New Features:**
-  * Added a direct Feedback Button! You can now easily send us your thoughts, report issues, or suggest new features right from the extension.
-  * You can now upload `.csv` files directly to the Financials Helper for offline data analysis and reporting.
+* **New Support Modal:** Discover ways to support the extension (Patreon or free!).
+* **Exclusive "Supporter Theme" & Badge:** Unlockable for free by adding a short text to your in-game Company Description.
+* **UI Enhancements:** Improved hover animations and colorful sidebar sections.
+* **Bug Fixes:** Fixed an issue with Cooper module custom costs.

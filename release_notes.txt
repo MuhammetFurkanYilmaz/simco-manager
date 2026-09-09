@@ -1,7 +1,6 @@
-## 🎉 v1.1.23 - Support System & UI Enhancements
+## 📱 v1.1.24 - Better Experience on Small Screens
 
 ### 🚀 Improvements
-* **New Support Modal:** Discover ways to support the extension (Patreon or free!).
-* **Exclusive "Supporter Theme" & Badge:** Unlockable for free by adding a short text to your in-game Company Description.
-* **UI Enhancements:** Improved hover animations and colorful sidebar sections.
-* **Bug Fixes:** Fixed an issue with Cooper module custom costs.
+* **Small Screen Support:** The sidebar now works much better on narrow browser windows and small monitors. Only one panel opens at a time, so you always have room to see the game.
+* **Smarter Panels:** When you open a new panel, the previous one closes automatically — no more scrolling through a long list of open sections.
+* **Cleaner Look:** On small screens, closed panels are hidden completely, giving you more space to play.

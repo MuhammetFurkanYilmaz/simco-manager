@@ -1,6 +1,0 @@
-## 📱 v1.1.24 - Better Experience on Small Screens
-
-### 🚀 Improvements
-* **Small Screen Support:** The sidebar now works much better on narrow browser windows and small monitors. Only one panel opens at a time, so you always have room to see the game.
-* **Smarter Panels:** When you open a new panel, the previous one closes automatically — no more scrolling through a long list of open sections.
-* **Cleaner Look:** On small screens, closed panels are hidden completely, giving you more space to play.

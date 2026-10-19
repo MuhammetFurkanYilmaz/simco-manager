@@ -1,6 +1,6 @@
 # SimCo Manager — The Best Browser Extension for Sim Companies
 
-[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.24-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
+[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.25-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Chrome](https://img.shields.io/badge/Chrome_%26_Edge-Supported-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![12 Languages](https://img.shields.io/badge/Languages-12-orange?style=for-the-badge)](#-supported-languages)
@@ -40,10 +40,10 @@ Most Sim Companies players rely on **spreadsheets, calculators, and manual math*
 
 ### 📋 Sidebar Menu
 
-The extension adds a sleek, collapsible sidebar to Sim Companies with quick access to all tools. Toggle visibility with **Alt+H** keyboard shortcut. Your sidebar state persists across sessions.
+The extension adds a slim **icon rail** to the side of Sim Companies. Each icon opens one tool panel next to the game — only one panel is open at a time, so the game stays visible. Helpers that belong to the page you are on (for example Production Helper on a production building) are highlighted automatically. Toggle the rail with the **Alt+H** keyboard shortcut; your layout persists across sessions.
 
 <p align="center">
-  <img src="assets/menu.png" alt="SimCo Manager sidebar menu showing Production Helper, Retail Helper, Financials, Market Alerts, Building Alarms, Chat Filter, and Executive Helper sections" width="220">
+  <img src="assets/menu.png" alt="SimCo Manager icon rail with one tool panel open next to the Sim Companies game" width="260">
 </p>
 
 ---
@@ -76,6 +76,7 @@ Real-time retail profitability calculator. Shows **profit per minute**, per hour
 - ✅ Saturation percentage with trend direction
 - ✅ Average retail price with change percentage
 - ✅ CMO in-training warning (retail margin may be reduced)
+- ✅ **Daily Supply Calculator** — daily supply need from your total levels, which are auto-filled from your own buildings of the same type
 
 <p align="center">
   <img src="assets/retail-helper.png" alt="Sim Companies retail calculator displaying profit per minute, Market Pulse stability indicator, and saturation data" width="320">
@@ -87,14 +88,29 @@ Real-time retail profitability calculator. Shows **profit per minute**, per hour
 
 Find the **most profitable retail products** for any store type. Calculates the top 10 items ranked by **PPHPL** (Profit Per Hour Per Level) — the gold standard metric for retail optimization.
 
-- ✅ **10 store types** — Grocery, Gas Station, Fashion, Car Dealership, Electronics, Hardware, Toy Shop, Sweet Shop, Halloween Shop, Gift Shop
+- ✅ **10 store types** — Grocery, Gas Station, Fashion, Car Dealership, Electronics, Hardware, Xmas market, Spring market, Halloween market, Beach market
 - ✅ Quality sweep (Q0–Q9) for maximum accuracy
-- ✅ Configurable **Admin Overhead %**, **Sales Bonus %**, and **Economy Phase**
+- ✅ **Auto-filled from your company** — Economy Phase, Admin Overhead % (including your COO's effect), Sales Bonus % (including your CMO's effect, read from the "Team impact" on your Executives page) and total levels for the selected building type
+- ✅ **"Auto-fill from my company"** button to refresh the values; type into any field to use your own number instead
 - ✅ Metrics: Profit/Day, Revenue/Day, Units/Hr, Units/Day, Cost, Price, PPHPL
 - ✅ Click any result row to auto-load it in Retail Helper
 
 <p align="center">
   <img src="assets/top-retail-calculator.png" alt="Sim Companies top retail PPHPL calculator showing most profitable products ranked by profit per hour per level for grocery store" width="320">
+</p>
+
+---
+
+### 🎛️ Products Simulator
+
+Compare **every product a store can sell** side by side. Pick a building type, economy phase and total levels, and the simulator lists each product with its **best quality and profit/day** right in the row — expand a product to see every quality with Unit Cost, Selling Price, Units/Hr, Units/Day, Gross Revenue, Profit/Day and PPHPL.
+
+- ✅ Same **auto-fill** as Top Retail (phase, admin overhead, sales bonus, total levels) with manual override
+- ✅ Edit cost or selling price per quality to test your own scenarios; **Reset All** brings back the defaults
+- ✅ Optional discount % for what-if pricing
+
+<p align="center">
+  <img src="assets/products-simulator.png" alt="Sim Companies products simulator listing each product with its best quality and profit per day, with an expanded per-quality table" width="320">
 </p>
 
 ---
@@ -324,10 +340,16 @@ SimCo Manager **automatically adapts** to your Sim Companies theme. Whether you 
 
 ---
 
-### 🔄 Auto-Update Notifications
+### 👑 Supporter Theme (free)
 
-- **Update Checker** — Automatically checks for new versions every 4 hours. Shows a banner in the sidebar when an update is available.
-- **What's New Toast** — After updating, see the release highlights in a dismissable toast notification with a link to full release notes.
+Like the extension? Paste a short line about SimCo Manager into your **Company Description**, press **"Verify & Unlock Supporter Theme"** under your description, and an exclusive Supporter Theme is unlocked — for free. Keep the text in your description to keep the theme. Paid support on Patreon is optional.
+
+---
+
+### 🔄 Update Notifications
+
+- **Update available card** — The extension checks GitHub for new versions every 4 hours. When one is out, an **"Update available"** card shows a download button and a **"How to update"** link with step-by-step instructions.
+- **What's New card** — After updating, a card lists what's **New**, **Improved** and **Fixed**, with a link to the full release notes.
 
 ---
 
@@ -348,26 +370,31 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 
 ## 📥 Installation
 
-> 🛒 **Chrome Web Store** listing is coming soon! In the meantime, you can install it manually:
+> 📦 SimCo Manager is distributed **only through [GitHub Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)**. It is not on the Chrome Web Store or Firefox Add-ons — download it from the Releases page only.
 
-### Manual Installation (Chromium Browsers & Firefox)
-
-Works with **Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi**, and other Chromium-based modern browsers.
+### Chrome, Edge, Brave, Opera, Vivaldi (Chromium browsers)
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the `simco-manager-chrome-v1.1.24.zip` file.
+2. Download the `simco-manager-chrome-v1.1.25.zip` file.
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
-4. **For Chrome/Edge/Brave/Vivaldi/Opera:**
-   - Open your browser and navigate to `chrome://extensions/` (or `edge://extensions/` for Edge).
-   - Enable **"Developer mode"** using the toggle in the top-right corner.
-   - Click **"Load unpacked"** and select the folder you extracted.
-5. Navigate to [simcompanies.com](https://www.simcompanies.com/) — you'll see the SimCo Manager sidebar on the right!
+4. Open `chrome://extensions/` (or `edge://extensions/` for Edge, `brave://extensions/` for Brave).
+5. Enable **"Developer mode"** using the toggle in the top-right corner.
+6. Click **"Load unpacked"** and select the folder you extracted.
+7. Navigate to [simcompanies.com](https://www.simcompanies.com/) — you'll see the SimCo Manager icon rail on the side!
+
+### Firefox
+
+1. Download the `simco-manager-firefox-v1.1.25.zip` file from the same **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
+2. Open `about:debugging#/runtime/this-firefox`.
+3. Click **"Load Temporary Add-on…"** and select the downloaded `.zip` (or the `manifest.json` inside the extracted folder).
 
 ### Updating to a New Version
 
+When a new version is out, the extension shows an **"Update available"** card. Its **"How to update"** link opens the [step-by-step guide on Reddit](https://www.reddit.com/r/SimCompanies/comments/1up3bi5/).
+
 1. Download the new `.zip` from [Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases).
-2. Extract it to the **same folder** (overwrite existing files).
-3. Go to `chrome://extensions/` and click the **reload** (↻) button on SimCo Manager.
+2. Extract it into the **same folder** as before, replacing the old files.
+3. Go to `chrome://extensions/` and click the **reload** (↻) button on SimCo Manager. Your settings are kept.
 
 ---
 
@@ -377,7 +404,7 @@ To provide the most advanced analytical experience, SimCo Manager utilizes speci
 
 - **`storage`**: Used to save your local UI preferences (Dark/Light theme, market alert thresholds, and cached layouts) directly on your device. This ensures a fast, backend-free experience for your settings.
 - **`*://*/*` (Broad Host Permissions)**: SimCo Manager relies on external community APIs (such as *api.simcotools.com* for VWAP data). Requesting broad host permissions upfront ensures that when we add support for new community APIs or when these endpoints change domains, the extension will continue to work seamlessly without throwing network errors or requiring you to immediately reinstall to grant new domain-specific permissions.
-- **Domain Specific Content Scripts (`simcompanies.com` & `cooperinc.xyz`)**: The extension strictly injects its UI overlay scripts ONLY into `simcompanies.com` (the main game) and `cooperinc.xyz` (the most popular community retail-calculator tool). The `cooper_content.js` script exists specifically to provide seamless retail data synchronization between the game and the Cooper Inc calculator, automatically populating forms to save you time. **No other websites are injected or tracked.**
+- **Domain Specific Content Scripts (`simcompanies.com` & `cooperinc.xyz`)**: The extension strictly injects its UI overlay scripts ONLY into `simcompanies.com` (the main game) and `cooperinc.xyz` (the most popular community retail-calculator tool). The `cooper_content.js` script exists specifically to provide seamless retail data synchronization between the game and the Cooper Inc calculator, automatically populating forms to save you time. In Chromium browsers, CooperInc results are read in a hidden background page, so no extra window or tab opens. **No other websites are injected or tracked.**
 - **Code Minification & Obfuscation**: You may notice our production code is heavily minified and obfuscated. SimCo Manager includes proprietary features, such as our advanced VWAP calculation logic, custom historical market prediction algorithms, and premium UI components. We employ standard Rollup/Vite obfuscation plugins in our CI/CD pipeline solely to protect our Intellectual Property (IP) from being cloned and redistributed by copycat extensions on the Chrome Web Store.
 - **Sim Companies API only** — the extension reads publicly available game data. It does **not** automate any core gameplay actions.
 
@@ -500,6 +527,13 @@ Sim Companies oyuncularının çoğu işlerini yönetmek için **hesap tablolar�
 
 ## 🧩 Özellikler
 
+### 📋 Kenar Çubuğu (İkon Şeridi)
+Eklenti, oyunun yanına ince bir **ikon şeridi** ekler. Her ikon bir araç panelini oyunun yanında açar — aynı anda tek panel açık kalır, oyun görünür kalır. Bulunduğunuz sayfaya ait yardımcılar (ör. üretim binasında Üretim Yardımcısı) otomatik öne çıkar. **Alt+H** kısayoluyla şeridi gizleyip gösterebilirsiniz.
+
+<p align="center">
+  <img src="assets/menu.png" alt="SimCo Manager ikon şeridi ve oyunun yanında açık bir araç paneli" width="260">
+</p>
+
 ### 🏭 Üretim Yardımcısı (Production Helper)
 Üretim maliyetlerini, kâr marjlarını ve başabaş fiyatlarını analiz edin. **Bina yükseltme projeksiyonları** ile bir sonraki yükseltmenin kârlılığınızı nasıl etkileyeceğini görün.
 
@@ -510,17 +544,26 @@ Sim Companies oyuncularının çoğu işlerini yönetmek için **hesap tablolar�
 </p>
 
 ### 🛒 Perakende Yardımcısı (Retail Helper)
-Gerçek zamanlı perakende kârlılık hesaplayıcısı. **Dakika/saat/gün başına kâr** ve canlı **Piyasa Nabzı** verileri.
+Gerçek zamanlı perakende kârlılık hesaplayıcısı. **Dakika/saat/gün başına kâr** ve canlı **Piyasa Nabzı** verileri. **Günlük Tedarik Hesaplayıcısı**, aynı türdeki kendi binalarınızdan otomatik doldurulan toplam seviyeyle günlük tedarik ihtiyacını gösterir.
 
 <p align="center">
   <img src="assets/retail-helper.png" alt="Perakende Yardımcısı: dakikada kâr, Piyasa Nabzı göstergesi, doygunluk verileri" width="320">
 </p>
 
 ### 🏆 En Kârlı Perakende Hesaplayıcı (Top Retail) <sup>🆕</sup>
-Her mağaza türü için PPHPL bazında en kârlı 10 ürünü hesaplayın. Admin Overhead, Satış Bonusu ve Ekonomi Fazı ayarlanabilir.
+Her mağaza türü için PPHPL bazında en kârlı 10 ürünü hesaplayın: Market, Benzin İstasyonu, Moda, Otomobil Galerisi, Elektronik, Hırdavat, Xmas market, Spring market, Halloween market ve Beach market.
+
+**Şirketinizden otomatik doldurma:** Ekonomi Fazı, Admin Overhead (COO etkisi dahil), Satış Bonusu (CMO etkisi dahil — Yöneticiler sayfasındaki "Team impact" bölümünden okunur) ve seçili bina türündeki toplam seviyeleriniz otomatik gelir. **"Auto-fill from my company"** butonuyla yenileyebilir, herhangi bir alana kendi değerinizi yazarak elle değiştirebilirsiniz.
 
 <p align="center">
   <img src="assets/top-retail-calculator.png" alt="En Kârlı Perakende Hesaplayıcı: mağaza türüne göre PPHPL sıralamasıyla en kârlı ürünler" width="320">
+</p>
+
+### 🎛️ Ürün Simülatörü (Products Simulator)
+Bir mağazanın satabileceği tüm ürünleri yan yana karşılaştırın. Bina türü, ekonomi fazı ve toplam seviyeyi seçin; her ürünün satırında **en iyi kalite ve günlük kâr** görünür. Ürünü açınca her kalite için Birim Maliyet, Satış Fiyatı, Birim/Saat, Birim/Gün, Brüt Gelir, Kâr/Gün ve PPHPL listelenir. Top Retail ile aynı otomatik doldurma ve elle değiştirme desteği vardır; maliyet ve fiyatları kalite bazında düzenleyip **Reset All** ile sıfırlayabilirsiniz.
+
+<p align="center">
+  <img src="assets/products-simulator.png" alt="Ürün Simülatörü: her ürün için en iyi kalite ve günlük kâr, açılmış kalite tablosu" width="320">
 </p>
 
 ### 💰 Finansal Yardımcı (Financials Helper)
@@ -613,30 +656,42 @@ Oyunun temasına otomatik uyum — her iki modda da mükemmel görünüm.
   <img src="assets/light-mode.png" alt="SimCo Manager açık tema" width="420">
 </p>
 
+### 👑 Destekçi Teması (Supporter Theme — ücretsiz)
+Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Açıklamanıza** yapıştırın, açıklamanın altındaki **"Verify & Unlock Supporter Theme"** butonuna basın ve özel Destekçi Temasını ücretsiz açın. Metin açıklamada kaldığı sürece tema aktif kalır. Patreon desteği isteğe bağlıdır.
+
+### 🔄 Güncelleme Bildirimleri
+- **"Update available" kartı** — Eklenti 4 saatte bir GitHub'da yeni sürüm olup olmadığını kontrol eder. Yeni sürüm çıktığında indirme butonu ve adım adım anlatan **"How to update"** bağlantısı içeren bir kart gösterir.
+- **Yenilikler (What's New) kartı** — Güncellemeden sonra **Yeni**, **İyileştirildi** ve **Düzeltildi** başlıklarıyla nelerin değiştiğini, tam sürüm notlarına bağlantıyla gösterir.
+
 ---
 
 ## 📥 Kurulum
 
-> 🛒 **Chrome Web Mağazası** listesi yakında yayınlanacak! Şimdilik manuel kurulum yapabilirsiniz:
+> 📦 SimCo Manager **yalnızca [GitHub Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** üzerinden dağıtılır. Chrome Web Mağazası'nda veya Firefox Eklentileri'nde yoktur — sadece Releases sayfasından indirin.
 
-### Manuel Kurulum (Chromium Tarayıcılar ve Firefox)
-
-**Google Chrome**, **Microsoft Edge**, **Brave**, **Opera**, **Vivaldi** ve diğer Chromium tabanlı modern tarayıcılarda çalışır.
+### Chrome, Edge, Brave, Opera, Vivaldi (Chromium tarayıcılar)
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. En güncel `simco-manager-chrome-v1.1.24.zip` dosyasını indirin.
+2. En güncel `simco-manager-chrome-v1.1.25.zip` dosyasını indirin.
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
-4. **Chrome/Edge/Brave/Vivaldi/Opera için:**
-   - Tarayıcınızda `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`).
-   - Sağ üst köşeden **"Geliştirici modu"**nu açın.
-   - **"Paketlenmemiş öğe yükle" (Load unpacked)** butonuna tıklayın ve çıkarttığınız klasörü seçin.
-5. [simcompanies.com](https://www.simcompanies.com/) adresine gidin — sağ tarafta SimCo Manager menüsünü göreceksiniz!
+4. `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`, Brave için `brave://extensions/`).
+5. Sağ üst köşeden **"Geliştirici modu"**nu açın.
+6. **"Paketlenmemiş öğe yükle" (Load unpacked)** butonuna tıklayın ve çıkarttığınız klasörü seçin.
+7. [simcompanies.com](https://www.simcompanies.com/) adresine gidin — kenarda SimCo Manager ikon şeridini göreceksiniz!
+
+### Firefox
+
+1. Aynı **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasından `simco-manager-firefox-v1.1.25.zip` dosyasını indirin.
+2. `about:debugging#/runtime/this-firefox` adresine gidin.
+3. **"Geçici Eklenti Yükle…" (Load Temporary Add-on)** butonuna tıklayın ve indirdiğiniz `.zip` dosyasını (veya çıkarttığınız klasördeki `manifest.json` dosyasını) seçin.
 
 ### Güncelleme
 
+Yeni sürüm çıktığında eklenti **"Update available"** kartı gösterir. Karttaki **"How to update"** bağlantısı [Reddit'teki adım adım rehberi](https://www.reddit.com/r/SimCompanies/comments/1up3bi5/) açar.
+
 1. [Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases) sayfasından yeni `.zip` dosyasını indirin.
-2. **Aynı klasöre** çıkartın (mevcut dosyaların üzerine yazın).
-3. `chrome://extensions/` sayfasına gidin ve SimCo Manager'ın **yenile** (↻) butonuna tıklayın.
+2. Önceki klasörün **aynısına** çıkartıp eski dosyaların üzerine yazın.
+3. `chrome://extensions/` sayfasına gidin ve SimCo Manager'ın **yenile** (↻) butonuna tıklayın. Ayarlarınız korunur.
 
 ---
 
@@ -646,7 +701,7 @@ SimCo Manager, en gelişmiş analiz deneyimini sunmak için belirli tarayıcı i
 
 - **`storage`**: Yerel UI tercihlerinizi (Koyu/Açık tema, piyasa alarm sınırları ve önbelleğe alınmış düzenler) doğrudan cihazınıza kaydetmek için kullanılır. Bu, ayarlarınız için hızlı ve arka uç gerektirmeyen bir deneyim sağlar.
 - **`*://*/*` (Geniş Ağ İzinleri)**: SimCo Manager, VWAP verileri için *api.simcotools.com* gibi harici topluluk API'lerine dayanır. Başlangıçta geniş ağ izinlerinin istenmesi, yeni topluluk API'leri eklediğimizde veya bu adresler değiştiğinde eklentinin ağ hataları vermeden kesintisiz çalışmaya devam etmesini sağlar. Böylece her yeni özellik eklendiğinde izin sorunlarıyla karşılaşmazsınız.
-- **Etki Alanına Özgü İçerik Komut Dosyaları (`simcompanies.com` ve `cooperinc.xyz`)**: Eklenti, UI katman betiklerini SADECE `simcompanies.com` (ana oyun) ve `cooperinc.xyz` (en popüler topluluk perakende hesaplayıcı aracı) içine yerleştirir. `cooper_content.js` betiği, oyun ile Cooper Inc hesaplayıcısı arasında sorunsuz perakende veri senkronizasyonu sağlamak ve size zaman kazandırmak için formları otomatik olarak doldurmak üzere özel olarak tasarlanmıştır. **Başka hiçbir web sitesine kod enjekte edilmez veya izlenmez.**
+- **Etki Alanına Özgü İçerik Komut Dosyaları (`simcompanies.com` ve `cooperinc.xyz`)**: Eklenti, UI katman betiklerini SADECE `simcompanies.com` (ana oyun) ve `cooperinc.xyz` (en popüler topluluk perakende hesaplayıcı aracı) içine yerleştirir. `cooper_content.js` betiği, oyun ile Cooper Inc hesaplayıcısı arasında sorunsuz perakende veri senkronizasyonu sağlamak ve size zaman kazandırmak için formları otomatik olarak doldurmak üzere özel olarak tasarlanmıştır. Chromium tarayıcılarda CooperInc sonuçları gizli bir arka plan sayfasında okunur; ekstra pencere veya sekme açılmaz. **Başka hiçbir web sitesine kod enjekte edilmez veya izlenmez.**
 - **Kod Küçültme ve Karmaşıklaştırma (Obfuscation)**: Üretim kodumuzun büyük ölçüde küçültüldüğünü ve karmaşıklaştırıldığını fark edebilirsiniz. SimCo Manager, gelişmiş VWAP hesaplama mantığımız, özel geçmiş piyasa tahmin algoritmalarımız ve premium UI bileşenleri gibi özel özellikler içerir. Chrome Web Mağazası'ndaki taklitçi uzantılar tarafından kopyalanıp yeniden dağıtılmasını önlemek ve Fikri Mülkiyetimizi (IP) korumak amacıyla CI/CD süreçlerimizde standart Rollup/Vite şifreleme eklentileri kullanıyoruz.
 
 ---

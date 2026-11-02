@@ -1,6 +1,6 @@
 # SimCo Manager — The Best Browser Extension for Sim Companies
 
-[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.28-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
+[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.29-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Chrome](https://img.shields.io/badge/Chrome_%26_Edge-Supported-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![12 Languages](https://img.shields.io/badge/Languages-12-orange?style=for-the-badge)](#-supported-languages)
@@ -252,7 +252,7 @@ Search for executives across the **entire realm** without leaving the game. Find
 
 Incoming contracts are automatically ranked with **Gold ⭐, Silver, and Bronze** badges based on profitability. Stop guessing — see at a glance which contracts are worth accepting.
 
-- ✅ Market price comparison (cheaper / same / more expensive with %)
+- ✅ Price comparison (cheaper / same / more expensive with %), against the VWAP or the lowest market price — click the badge to switch
 - ✅ Retail Gross profit estimate (quality-adjusted)
 - ✅ ROI percentage and Daily Profit estimation
 - ✅ "Accept Recommended" badge on rank #1
@@ -375,7 +375,7 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 ### Chrome, Edge, Brave, Opera, Vivaldi (Chromium browsers)
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the `simco-manager-chrome-v1.1.28.zip` file.
+2. Download the `simco-manager-chrome-v1.1.29.zip` file.
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
 4. Open `chrome://extensions/` (or `edge://extensions/` for Edge, `brave://extensions/` for Brave).
 5. Enable **"Developer mode"** using the toggle in the top-right corner.
@@ -384,7 +384,7 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 
 ### Firefox
 
-1. Download the `simco-manager-firefox-v1.1.28.zip` file from the same **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
+1. Download the `simco-manager-firefox-v1.1.29.zip` file from the same **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
 2. Open `about:debugging#/runtime/this-firefox`.
 3. Click **"Load Temporary Add-on…"** and select the downloaded `.zip` (or the `manifest.json` inside the extracted folder).
 
@@ -620,7 +620,7 @@ Tüm realm'deki yöneticileri isim, pozisyon ve yaşa göre arayın. Doğrudan o
 </p>
 
 ### 🤝 Akıllı Kontrat Yönetimi
-Gelen kontratlar otomatik olarak kârlılık bazında **Altın, Gümüş, Bronz** rozetleriyle sıralanır. Giden kontratlar için doğrudan sözleşme ekranına entegre kâr hesaplayıcı.
+Gelen kontratlar otomatik olarak kârlılık bazında **Altın, Gümüş, Bronz** rozetleriyle sıralanır. Fiyat rozeti kontratı VWAP'a ya da en düşük piyasa fiyatına göre karşılaştırır; rozete tıklayarak ikisi arasında geçebilirsiniz. Giden kontratlar için doğrudan sözleşme ekranına entegre kâr hesaplayıcı.
 
 <p align="center">
   <img src="assets/incoming-contracts.png" alt="Gelen kontratlar: altın, gümüş ve bronz rozetlerle sıralama, ROI yüzdesi">
@@ -672,7 +672,7 @@ Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Aç
 ### Chrome, Edge, Brave, Opera, Vivaldi (Chromium tarayıcılar)
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. En güncel `simco-manager-chrome-v1.1.28.zip` dosyasını indirin.
+2. En güncel `simco-manager-chrome-v1.1.29.zip` dosyasını indirin.
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
 4. `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`, Brave için `brave://extensions/`).
 5. Sağ üst köşeden **"Geliştirici modu"**nu açın.
@@ -681,7 +681,7 @@ Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Aç
 
 ### Firefox
 
-1. Aynı **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasından `simco-manager-firefox-v1.1.28.zip` dosyasını indirin.
+1. Aynı **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasından `simco-manager-firefox-v1.1.29.zip` dosyasını indirin.
 2. `about:debugging#/runtime/this-firefox` adresine gidin.
 3. **"Geçici Eklenti Yükle…" (Load Temporary Add-on)** butonuna tıklayın ve indirdiğiniz `.zip` dosyasını (veya çıkarttığınız klasördeki `manifest.json` dosyasını) seçin.
 

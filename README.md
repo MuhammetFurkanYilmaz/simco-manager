@@ -50,18 +50,33 @@ The extension adds a slim **icon rail** to the side of Sim Companies. Each icon 
 
 ### 🏭 Production Helper
 
-Analyze production costs, profit margins, and break-even prices **before you start producing**. Includes **building upgrade projections** so you can see exactly how your next upgrade affects profitability.
+Analyze production costs, profit margins, and break-even prices **before you start producing**. The panel opens with a short summary (is it profitable, profit per hour, upgrade payback) and keeps the full breakdown one click away.
 
+- ✅ Summary first: profitable or not, market profit per hour, and whether contract or market selling earns more
 - ✅ Cost per unit and total production cost breakdown
 - ✅ Profit analysis for **Market Sell** (full transport + 4% fee) and **Contract Sell** (50% transport, no fee)
 - ✅ Break-even price thresholds for both scenarios
-- ✅ Profit margin percentages
-- ✅ **Building upgrade projection** — current vs. projected comparison with quantity and cost deltas
+- ✅ **Building upgrade projection** with the upgrade's payback time
 
 <p align="center">
-  <img src="assets/production-helper-active-production-available.png" alt="Sim Companies production helper showing production costs, profit analysis, and active production status" width="320">
+  <img src="assets/production-helper-summary.png" alt="Sim Companies production helper summary showing a profitable production, market profit per hour, and upgrade payback in days" width="320">
   &nbsp;&nbsp;
-  <img src="assets/production-helper-active-production-not-available.png" alt="Sim Companies production calculator showing production costs and profit analysis without active production" width="320">
+  <img src="assets/production-helper-details.png" alt="Sim Companies production helper details with production costs, market and contract profit, break-even prices, and building upgrade projection" width="320">
+</p>
+
+---
+
+### 🔗 Production Chain <sup>🆕</sup>
+
+Plan **vertical integration**: pick a product and see which of its inputs are cheaper to make yourself than to buy, and how many building levels the whole chain needs.
+
+- ✅ Profit per day per building level, using your own mines' abundance and the game's quality rule
+- ✅ **Optimum level** — how many levels to build before the extra admin overhead eats the gain
+- ✅ Make or buy for every input, with the saving per unit; tap to switch
+- ✅ Speaks the game's language and names the building that makes each input
+
+<p align="center">
+  <img src="assets/production-chain.png" alt="Sim Companies production chain planner showing profit per building level, the optimum level, and make or buy for every input" width="320">
 </p>
 
 ---
@@ -84,7 +99,7 @@ Real-time retail profitability calculator. Shows **profit per minute**, per hour
 
 ---
 
-### 🏆 Top Retail Calculator <sup>🆕</sup>
+### 🏆 Top Retail Calculator
 
 Find the **most profitable retail products** for any store type. Calculates the top 10 items ranked by **PPHPL** (Profit Per Hour Per Level) — the gold standard metric for retail optimization.
 
@@ -141,7 +156,7 @@ The most comprehensive **financial dashboard** available for Sim Companies. A co
 
 ---
 
-### 📈 VWAP Market Analysis <sup>🆕</sup>
+### 📈 VWAP Market Analysis
 
 See instantly whether a market listing is **overpriced or underpriced** compared to the Volume-Weighted Average Price (VWAP). Color-coded badges appear directly on exchange listings.
 
@@ -153,6 +168,33 @@ See instantly whether a market listing is **overpriced or underpriced** compared
 
 <p align="center">
   <img src="assets/vwap-market-analysis.png" alt="Sim Companies exchange page showing VWAP market analysis with Expensive and Cheap badges next to listing prices with detailed popover showing selling price vs quality-specific VWAP average" width="600">
+</p>
+
+---
+
+### 🔨 Building Auction Valuator <sup>🆕</sup>
+
+Know what an auctioned building is worth before you bid. Every card in the auction list shows **what it would cost to build yourself and how long that takes**, and the auction page adds a full valuation.
+
+- ✅ Badges in the auction list: build cost and build time for each building
+- ✅ Your bid compared with scrap value and the cost of building it yourself
+- ✅ Time saved and worst-case loss at your max bid
+- ✅ **Retail payback** — how many days the store needs to earn back your bid, using your Products Simulator settings
+
+<p align="center">
+  <img src="assets/auction-list.png" alt="Sim Companies building auctions list with build cost and build time badges on every building" width="600">
+  &nbsp;&nbsp;
+  <img src="assets/auction-valuator.png" alt="Sim Companies building auction valuator comparing the bid with scrap value and build cost, with time saved and retail payback in days" width="420">
+</p>
+
+---
+
+### 🏛️ Government Orders <sup>🆕</sup>
+
+See the week's government orders in one panel: what each order needs, the delivery deadline, and what the goods are worth on the exchange compared with the government's base value.
+
+<p align="center">
+  <img src="assets/government-orders.png" alt="Sim Companies government orders panel listing each order's required goods, delivery deadline, and exchange value" width="320">
 </p>
 
 ---
@@ -174,7 +216,7 @@ Set price alerts for any product and quality level. The extension monitors marke
 
 ---
 
-### ⏰ Building Alarms <sup>🆕</sup>
+### ⏰ Building Alarms
 
 Never miss a production cycle again. Set alarms for any building and receive a **browser notification** the moment production finishes — no need to keep checking the game.
 
@@ -230,7 +272,7 @@ Track your **Organic Growth timer** and see which executives are eligible for th
 
 ---
 
-### 🔍 Global Executive Search (Headhunter) <sup>🆕</sup>
+### 🔍 Global Executive Search (Headhunter)
 
 Search for executives across the **entire realm** without leaving the game. Find the perfect COO, CFO, CMO, or CTO for your company with advanced filtering and sorting.
 
@@ -267,6 +309,7 @@ Incoming contracts are automatically ranked with **Gold ⭐, Silver, and Bronze*
 When sending contracts, the extension injects a **profit calculator** directly into the contract dialog. Set a market discount, auto-fill the price, and see all financials instantly.
 
 - ✅ Market discount % input with auto-price fill
+- ✅ **Last contract price** you sent at the same quality, with a Fill button
 - ✅ Revenue, Sourcing, Transport, Profit, and Profit Margin display
 
 <p align="center">
@@ -295,7 +338,7 @@ Select products you want to buy, set quantities, quality, and price — then gen
 
 #### Building Upgrade Message Builder
 
-When upgrading buildings, the extension shows the **exchange purchase cost**, warehouse resource usage, cost savings, and generates a ready-to-paste buying message for all missing resources.
+When upgrading buildings, the extension shows the **exchange purchase cost**, warehouse resource usage, cost savings, and generates a ready-to-paste buying message for all missing resources. Pick a **target level** to plan several upgrades at once: materials and total downtime are added up for you.
 
 <p align="center">
   <img src="assets/building-upgrade-message-builder.png" alt="Sim Companies building upgrade dialog showing required resources, exchange prices, cost comparison, and generated buying message">
@@ -313,7 +356,7 @@ See your **XP/hour**, remaining XP, and estimated time to reach the next level �
 
 ---
 
-### 🏗️ Realm Stats <sup>🆕</sup>
+### 🏗️ Realm Stats
 
 View **building distribution statistics** for your entire realm, right from the landscape (map) page. See which buildings are most and least popular, and check the current economy phase at a glance.
 
@@ -328,7 +371,7 @@ View **building distribution statistics** for your entire realm, right from the 
 
 ---
 
-### 🎨 Dark & Light Mode Support <sup>🆕</sup>
+### 🎨 Dark & Light Mode Support
 
 SimCo Manager **automatically adapts** to your Sim Companies theme. Whether you prefer dark mode or light mode, every panel, badge, and tooltip looks perfect.
 
@@ -535,12 +578,19 @@ Eklenti, oyunun yanına ince bir **ikon şeridi** ekler. Her ikon bir araç pane
 </p>
 
 ### 🏭 Üretim Yardımcısı (Production Helper)
-Üretim maliyetlerini, kâr marjlarını ve başabaş fiyatlarını analiz edin. **Bina yükseltme projeksiyonları** ile bir sonraki yükseltmenin kârlılığınızı nasıl etkileyeceğini görün.
+Üretim maliyetlerini, kâr marjlarını ve başabaş fiyatlarını analiz edin. Panel önce kısa bir özet gösterir (kârlı mı, saatlik kâr, yükseltmenin kendini kaç günde ödediği); ayrıntılar bir tık uzakta. **Bina yükseltme projeksiyonu** ile bir sonraki yükseltmenin kârlılığınızı nasıl etkileyeceğini görün.
 
 <p align="center">
-  <img src="assets/production-helper-active-production-available.png" alt="Üretim Yardımcısı: üretim maliyetleri, kâr analizleri ve aktif üretim durumu" width="320">
+  <img src="assets/production-helper-summary.png" alt="Üretim Yardımcısı özeti: kârlı üretim, saatlik piyasa kârı ve yükseltmenin geri dönüş süresi" width="320">
   &nbsp;&nbsp;
-  <img src="assets/production-helper-active-production-not-available.png" alt="Üretim Yardımcısı: aktif üretim olmadan üretim maliyetleri ve kâr analizleri" width="320">
+  <img src="assets/production-helper-details.png" alt="Üretim Yardımcısı ayrıntıları: üretim maliyeti, piyasa ve kontrat kârı, başabaş fiyatları ve yükseltme projeksiyonu" width="320">
+</p>
+
+### 🔗 Üretim Zinciri (Production Chain) <sup>🆕</sup>
+**Dikey entegrasyon** planlayın: bir ürün seçin, girdilerinden hangilerini kendiniz üretmenin satın almaktan ucuz olduğunu ve tüm zincirin kaç bina seviyesi gerektirdiğini görün. Kendi madenlerinizin verimini ve oyunun kalite kuralını kullanır; ek admin yükü kazancı yemeden önce kaç seviye kurmanız gerektiğini (**en uygun seviye**) gösterir.
+
+<p align="center">
+  <img src="assets/production-chain.png" alt="Üretim Zinciri: seviye başına kâr, en uygun seviye ve her girdi için üret ya da satın al" width="320">
 </p>
 
 ### 🛒 Perakende Yardımcısı (Retail Helper)
@@ -550,7 +600,7 @@ Gerçek zamanlı perakende kârlılık hesaplayıcısı. **Dakika/saat/gün baş
   <img src="assets/retail-helper.png" alt="Perakende Yardımcısı: dakikada kâr, Piyasa Nabzı göstergesi, doygunluk verileri" width="320">
 </p>
 
-### 🏆 En Kârlı Perakende Hesaplayıcı (Top Retail) <sup>🆕</sup>
+### 🏆 En Kârlı Perakende Hesaplayıcı (Top Retail)
 Her mağaza türü için PPHPL bazında en kârlı 10 ürünü hesaplayın: Market, Benzin İstasyonu, Moda, Otomobil Galerisi, Elektronik, Hırdavat, Xmas market, Spring market, Halloween market ve Beach market.
 
 **Şirketinizden otomatik doldurma:** Ekonomi Fazı, Admin Overhead (COO etkisi dahil), Satış Bonusu (CMO etkisi dahil — Yöneticiler sayfasındaki "Team impact" bölümünden okunur) ve seçili bina türündeki toplam seviyeleriniz otomatik gelir. **"Auto-fill from my company"** butonuyla yenileyebilir, herhangi bir alana kendi değerinizi yazarak elle değiştirebilirsiniz.
@@ -573,11 +623,27 @@ Gelir tablosu, nakit akışı takibi, bilanço verileri, finansal oranlar ve ak�
   <img src="assets/financials-helper.png" alt="Finansal Yardımcı: Gelir, Brüt Kâr, Faaliyet Kârı, Net Kâr, Nakit Değişim, Nakit Bakiye ve uyarı sistemi" width="320">
 </p>
 
-### 📈 VWAP Piyasa Analizi <sup>🆕</sup>
+### 📈 VWAP Piyasa Analizi
 Borsadaki her listede "Pahalı" veya "Ucuz" rozetleri görerek fiyatları anında değerlendirin. VWAP (Hacim Ağırlıklı Ortalama Fiyat) ile karşılaştırma.
 
 <p align="center">
   <img src="assets/vwap-market-analysis.png" alt="VWAP Piyasa Analizi: Pahalı ve Ucuz rozetleri ile detaylı popover" width="600">
+</p>
+
+### 🔨 Bina Müzayedesi Değerleyici <sup>🆕</sup>
+Teklif vermeden önce binanın değerini bilin. Müzayede listesindeki her kartta binayı kendiniz kurmanın maliyeti ve satın alarak kazandığınız süre görünür. Müzayede sayfasında teklifiniz hurda değeri ve kurma maliyetiyle karşılaştırılır; mağazalar için teklifinizin kaç günde geri döneceği Ürün Simülatörü ayarlarınızla hesaplanır.
+
+<p align="center">
+  <img src="assets/auction-list.png" alt="Müzayede listesi: her binada kurma maliyeti ve süre rozeti" width="600">
+  &nbsp;&nbsp;
+  <img src="assets/auction-valuator.png" alt="Müzayede değerleyici: teklif, hurda değeri, kurma maliyeti ve perakende geri dönüş süresi" width="420">
+</p>
+
+### 🏛️ Hükümet Siparişleri (Government Orders) <sup>🆕</sup>
+Haftanın hükümet siparişleri tek panelde: her siparişin istediği mallar, teslim tarihi ve malların borsadaki değeri ile hükümetin taban değeri.
+
+<p align="center">
+  <img src="assets/government-orders.png" alt="Hükümet Siparişleri: gereken mallar, teslim tarihi ve borsa değeri" width="320">
 </p>
 
 ### 🔔 Piyasa Alarmları (Market Alerts)
@@ -587,7 +653,7 @@ Herhangi bir ürün ve kalite seviyesi için fiyat alarmları kurun. Eklenti ark
   <img src="assets/market-alerts.png" alt="Piyasa Alarmları: hedef fiyat ve mevcut piyasa fiyatı izleme" width="320">
 </p>
 
-### ⏰ Bina Alarmları <sup>🆕</sup>
+### ⏰ Bina Alarmları
 Üretim döngünüzü kaçırmayın. Haritada binaların yanına 🔔 butonu eklenir, tıklayınca üretim bittiğinde tarayıcı bildirimi alırsınız.
 
 <p align="center">
@@ -612,7 +678,7 @@ Organik büyüme zamanlayıcınızı ve müdür atama uygunluğunu takip edin. B
   <img src="assets/executive-helper.png" alt="Yönetici Yardımcısı: Organik Büyüme geri sayım zamanlayıcısı" width="320">
 </p>
 
-### 🔍 Yönetici Avcısı (Headhunter) <sup>🆕</sup>
+### 🔍 Yönetici Avcısı (Headhunter)
 Tüm realm'deki yöneticileri isim, pozisyon ve yaşa göre arayın. Doğrudan oyun içinden global yönetici araması.
 
 <p align="center">
@@ -620,17 +686,25 @@ Tüm realm'deki yöneticileri isim, pozisyon ve yaşa göre arayın. Doğrudan o
 </p>
 
 ### 🤝 Akıllı Kontrat Yönetimi
-Gelen kontratlar otomatik olarak kârlılık bazında **Altın, Gümüş, Bronz** rozetleriyle sıralanır. Fiyat rozeti kontratı VWAP'a ya da en düşük piyasa fiyatına göre karşılaştırır; rozete tıklayarak ikisi arasında geçebilirsiniz. Giden kontratlar için doğrudan sözleşme ekranına entegre kâr hesaplayıcı.
+Gelen kontratlar otomatik olarak kârlılık bazında **Altın, Gümüş, Bronz** rozetleriyle sıralanır. Fiyat rozeti kontratı VWAP'a ya da en düşük piyasa fiyatına göre karşılaştırır; rozete tıklayarak ikisi arasında geçebilirsiniz. Giden kontratlar için doğrudan sözleşme ekranına entegre kâr hesaplayıcı; aynı kalitede gönderdiğiniz son kontrat fiyatı da orada görünür.
 
 <p align="center">
   <img src="assets/incoming-contracts.png" alt="Gelen kontratlar: altın, gümüş ve bronz rozetlerle sıralama, ROI yüzdesi">
 </p>
 
+<p align="center">
+  <img src="assets/outgoing-contracts.png" alt="Giden kontrat: kâr hesaplayıcı ve aynı kalitedeki son kontrat fiyatı">
+</p>
+
 ### 📦 Mesaj Oluşturucular
-Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluşturun — tek tıkla sohbete yapıştırmaya hazır.
+Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluşturun — tek tıkla sohbete yapıştırmaya hazır. Yükseltme penceresinde bir **hedef seviye** seçerek birkaç yükseltmeyi birden planlayabilirsiniz; malzemeler ve toplam bekleme süresi toplanır.
 
 <p align="center">
   <img src="assets/warehouse-and-sales-message-builder.png" alt="Depo ve Satış Mesaj Oluşturucu">
+</p>
+
+<p align="center">
+  <img src="assets/building-upgrade-message-builder.png" alt="Bina yükseltme: gereken malzemeler, borsa maliyeti, hedef seviye ve alım mesajı" width="420">
 </p>
 
 ### ⏱️ Seviye Atlama Hesaplayıcısı
@@ -640,14 +714,14 @@ Depodan satış mesajı, alım mesajı ve bina yükseltme kaynak listesi oluştu
   <img src="assets/time-to-level-up-calculator.png" alt="Seviye atlama hesaplayıcısı">
 </p>
 
-### 🏗️ Realm İstatistikleri <sup>🆕</sup>
+### 🏗️ Realm İstatistikleri
 Harita sayfasında bina dağılım istatistikleri ve ekonomi fazı göstergesi.
 
 <p align="center">
   <img src="assets/realm-stats.png" alt="Realm istatistikleri: bina dağılım grafikleri ve ekonomi fazı" width="500">
 </p>
 
-### 🎨 Koyu / Açık Tema Desteği <sup>🆕</sup>
+### 🎨 Koyu / Açık Tema Desteği
 Oyunun temasına otomatik uyum — her iki modda da mükemmel görünüm.
 
 <p align="center">

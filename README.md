@@ -1,6 +1,6 @@
 # SimCo Manager — The Best Browser Extension for Sim Companies
 
-[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.29-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
+[![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.30-blue?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Chrome](https://img.shields.io/badge/Chrome_%26_Edge-Supported-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![12 Languages](https://img.shields.io/badge/Languages-12-orange?style=for-the-badge)](#-supported-languages)
@@ -71,7 +71,7 @@ Analyze production costs, profit margins, and break-even prices **before you sta
 Plan **vertical integration**: pick a product and see which of its inputs are cheaper to make yourself than to buy, and how many building levels the whole chain needs.
 
 - ✅ Profit per day per building level, using your own mines' abundance and the game's quality rule
-- ✅ **Optimum level** — how many levels to build before the extra admin overhead eats the gain
+- ✅ **Optimum level** — how many levels of which building to add, and the whole levels each input building needs, before the extra admin overhead of the whole chain eats the gain; held to 20% of yesterday's exchange volume
 - ✅ Make or buy for every input, with the saving per unit; tap to switch
 - ✅ Speaks the game's language and names the building that makes each input
 
@@ -135,7 +135,7 @@ Compare **every product a store can sell** side by side. Pick a building type, e
 The most comprehensive **financial dashboard** available for Sim Companies. A complete P&L statement, cash flow tracking, balance sheet snapshot, financial health ratios, and intelligent alerts — all in one panel.
 
 - ✅ **8 KPI cards**: Revenue, Gross Profit, Operating Profit, Net Profit, Cash Change, Cash Balance, A/R Estimate, Inventory
-- ✅ **Period selection**: Current, Day, Week, Month — with period-over-period comparison (delta + %)
+- ✅ **Period selection**: Current (the game's accounting day so far), Day, Week, Month — with period-over-period comparison (delta + %)
 - ✅ **Compact vs. Expanded view** toggle
 - ✅ **Expanded view** includes:
   - P&L Summary with Direct Costs, Operating Overhead, Non-Operating
@@ -418,7 +418,7 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 ### Chrome, Edge, Brave, Opera, Vivaldi (Chromium browsers)
 
 1. Go to the **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
-2. Download the `simco-manager-chrome-v1.1.29.zip` file.
+2. Download the `simco-manager-chrome-v1.1.30.zip` file.
 3. **Extract** (unzip) the downloaded file to a folder on your computer.
 4. Open `chrome://extensions/` (or `edge://extensions/` for Edge, `brave://extensions/` for Brave).
 5. Enable **"Developer mode"** using the toggle in the top-right corner.
@@ -427,7 +427,7 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 
 ### Firefox
 
-1. Download the `simco-manager-firefox-v1.1.29.zip` file from the same **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
+1. Download the `simco-manager-firefox-v1.1.30.zip` file from the same **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** page.
 2. Open `about:debugging#/runtime/this-firefox`.
 3. Click **"Load Temporary Add-on…"** and select the downloaded `.zip` (or the `manifest.json` inside the extracted folder).
 
@@ -587,7 +587,7 @@ Eklenti, oyunun yanına ince bir **ikon şeridi** ekler. Her ikon bir araç pane
 </p>
 
 ### 🔗 Üretim Zinciri (Production Chain) <sup>🆕</sup>
-**Dikey entegrasyon** planlayın: bir ürün seçin, girdilerinden hangilerini kendiniz üretmenin satın almaktan ucuz olduğunu ve tüm zincirin kaç bina seviyesi gerektirdiğini görün. Kendi madenlerinizin verimini ve oyunun kalite kuralını kullanır; ek admin yükü kazancı yemeden önce kaç seviye kurmanız gerektiğini (**en uygun seviye**) gösterir.
+**Dikey entegrasyon** planlayın: bir ürün seçin, girdilerinden hangilerini kendiniz üretmenin satın almaktan ucuz olduğunu ve tüm zincirin kaç bina seviyesi gerektirdiğini görün. Kendi madenlerinizin verimini ve oyunun kalite kuralını kullanır; tüm zincirin ek admin yükü kazancı yemeden önce hangi binaya kaç seviye eklemeniz gerektiğini ve girdi binalarının kaç seviye alacağını (**en uygun seviye**) gösterir; öneri dünkü borsa hacminin %20'siyle sınırlıdır.
 
 <p align="center">
   <img src="assets/production-chain.png" alt="Üretim Zinciri: seviye başına kâr, en uygun seviye ve her girdi için üret ya da satın al" width="320">
@@ -746,7 +746,7 @@ Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Aç
 ### Chrome, Edge, Brave, Opera, Vivaldi (Chromium tarayıcılar)
 
 1. **[Releases (Sürümler)](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasına gidin.
-2. En güncel `simco-manager-chrome-v1.1.29.zip` dosyasını indirin.
+2. En güncel `simco-manager-chrome-v1.1.30.zip` dosyasını indirin.
 3. İndirdiğiniz ZIP dosyasını bir klasöre **çıkartın** (ayıklayın).
 4. `chrome://extensions/` adresine gidin (Edge için `edge://extensions/`, Brave için `brave://extensions/`).
 5. Sağ üst köşeden **"Geliştirici modu"**nu açın.
@@ -755,7 +755,7 @@ Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Aç
 
 ### Firefox
 
-1. Aynı **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasından `simco-manager-firefox-v1.1.29.zip` dosyasını indirin.
+1. Aynı **[Releases](https://github.com/MuhammetFurkanYilmaz/simco-manager/releases)** sayfasından `simco-manager-firefox-v1.1.30.zip` dosyasını indirin.
 2. `about:debugging#/runtime/this-firefox` adresine gidin.
 3. **"Geçici Eklenti Yükle…" (Load Temporary Add-on)** butonuna tıklayın ve indirdiğiniz `.zip` dosyasını (veya çıkarttığınız klasördeki `manifest.json` dosyasını) seçin.
 

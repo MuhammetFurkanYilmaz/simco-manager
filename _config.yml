@@ -1,0 +1,61 @@
+# GitHub Pages (Jekyll) settings for https://muhammetfurkanyilmaz.github.io/simco-manager/
+# The page itself is README.md. The theme's layout calls {% seo %} and _includes/head-custom.html.
+
+title: SimCo Manager
+tagline: Sim Companies browser extension for Chrome and Firefox
+description: >-
+  SimCo Manager is a browser extension for the online business game Sim Companies (Chrome, Edge,
+  Brave, Opera, Vivaldi and Firefox). It adds 20+ tools to the game: production and retail profit
+  calculators, a financial dashboard, VWAP market prices, contract ranking, price and chat alerts,
+  building alarms and more, in 12 languages. Core tools are free.
+url: https://muhammetfurkanyilmaz.github.io
+baseurl: /simco-manager
+lang: en
+locale: en_US
+theme: jekyll-theme-primer
+logo: /assets/icon-1024.png
+author: Furkan
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/financials-helper.png
+
+# Developer files that are not part of the website
+exclude:
+  - node_modules
+  - src
+  - tests
+  - scripts
+  - public
+  - dist
+  - docs
+  - store-assets
+  - package.json
+  - package-lock.json
+  - building_names.json
+  - buildings_dump.json
+  - products_dump.json
+  - recipes_dump.json
+  - bmap.js
+  - eslint.config.js
+  - vite.config.js
+  - check.cjs
+  - check_code_keys.cjs
+  - extract.cjs
+  - fix_vars.cjs
+  - simcotools_openapi.yaml
+  - release_notes.txt
+  - TEST_INFRA.md
+  - TEST_READY.md
+  - SOURCE_BUILD.md
+  - CONTRIBUTING.md
+  - STORE_LISTING.md
+  - construction_html.md
+  - construction_html_utf8.md
+  - release_notes.md

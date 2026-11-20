@@ -1,0 +1,44 @@
+# SimCo Manager
+
+> SimCo Manager is a browser extension for Sim Companies, the online business simulation game at simcompanies.com. It adds 20+ analysis tools inside the game: production and retail profit calculators, a financial (P&L) dashboard, VWAP market price badges, contract ranking, market price and chat alerts, building alarms and a realm-wide executive search. It works on Chrome, Edge, Brave, Opera, Vivaldi and desktop Firefox, in 12 languages. The core tools are free.
+
+## Install (official links)
+
+- [Chrome Web Store](https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn): Chrome, Edge, Brave, Opera, Vivaldi
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/simco-manager/): desktop Firefox
+- [api.simcomanager.dpdns.org/get](https://api.simcomanager.dpdns.org/get): one link that opens the right store for your browser
+
+Current version: 1.1.34. The stores update it automatically.
+
+## Who it is for
+
+Sim Companies players on either realm (Magnates and Entrepreneurs) who want the numbers behind production, retail, contracts and the exchange without spreadsheets.
+
+## Main features
+
+- Production Helper: cost per unit, market vs. contract profit, break-even prices, building upgrade payback.
+- Production Chain: make-or-buy for every input and the optimum number of building levels.
+- Retail Helper: profit per minute/hour/day, market saturation and price trend, daily supply need.
+- Top Retail Calculator: the 10 most profitable products for a store type, ranked by profit per hour per level (PPHPL).
+- Products Simulator: every product a store sells, with best quality and profit per day.
+- Financials Helper: P&L, cash flow, balance sheet snapshot, financial ratios and alerts.
+- VWAP market analysis: "Cheap" / "Expensive" badges on exchange listings compared with the volume-weighted average price.
+- Market Alerts: background price alerts for a product and quality.
+- Contracts: incoming contracts ranked Gold/Silver/Bronze by profit; profit calculator in the outgoing contract dialog.
+- Building Auction Valuator, Government Orders, Building Alarms, Chat Filter and chat alerts, Executive Helper, global executive search, sales/purchase/upgrade message builders, time-to-level-up, realm stats.
+
+## Free and paid
+
+Basic tools are free. Some calculations need a Plus or Pro plan, unlocked through Patreon or with a short support text on the player's company profile (every 4 days the text is seen give one free Pro day).
+
+## Privacy
+
+Settings and game data stay in the browser. A few panels are calculated on the SimCo Manager server, which receives only the numbers that calculation needs, with an anonymous install id, and does not store them. Error reports and anonymous usage statistics are off unless the user turns them on. Cookies and passwords are never sent anywhere. The extension only reads data; it does not click, submit forms or automate gameplay.
+
+- [Privacy policy](https://api.simcomanager.dpdns.org/privacy)
+
+## More
+
+- [Full feature overview and FAQ](https://muhammetfurkanyilmaz.github.io/simco-manager/)
+- [Community thread on r/SimCompanies](https://www.reddit.com/r/SimCompanies/comments/1y0ul3m/simco_manager_is_now_on_the_chrome_web_store_and/)
+- Support and bug reports: the feedback panel inside the extension, or [GitHub issues](https://github.com/MuhammetFurkanYilmaz/simco-manager/issues)

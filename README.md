@@ -1,4 +1,4 @@
-# SimCo Manager — The Best Browser Extension for Sim Companies
+# SimCo Manager — Sim Companies Browser Extension for Chrome & Firefox
 
 [![SimCo Manager](https://img.shields.io/badge/SimCo_Manager-v1.1.34-blue?style=for-the-badge)](https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn)
@@ -6,17 +6,17 @@
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![12 Languages](https://img.shields.io/badge/Languages-12-orange?style=for-the-badge)](#-supported-languages)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](https://github.com/MuhammetFurkanYilmaz/simco-manager/blob/main/LICENSE)
-[![Reddit](https://img.shields.io/badge/Reddit-Community-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/SimCompanies/comments/1up3bi5/i_built_a_free_browser_extension_for_sim/)
+[![Reddit](https://img.shields.io/badge/Reddit-Community-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/SimCompanies/comments/1y0ul3m/simco_manager_is_now_on_the_chrome_web_store_and/)
 
-> **SimCo Manager** is the most feature-rich, all-in-one companion extension for [Sim Companies](https://www.simcompanies.com/) — the popular online business simulation game. It injects **20+ powerful tools** directly into the game interface: real-time profit calculators, a full financial dashboard, VWAP market analysis, smart contract ranking, building alarms, chat intelligence, executive headhunter search, and much more — all in **12 languages**, for **free**.
+**SimCo Manager is a Sim Companies extension for Chrome, Edge, Brave, Opera, Vivaldi and Firefox that adds profit calculators, market price analysis and alerts directly inside the game.**
 
-[🇬🇧 English](#-features-at-a-glance) · [🇹🇷 Türkçe](#türkçe)
+> **SimCo Manager** is an all-in-one companion extension for [Sim Companies](https://www.simcompanies.com/) — the popular online business simulation game. It injects **20+ powerful tools** directly into the game interface: real-time profit calculators, a full financial dashboard, VWAP market analysis, smart contract ranking, building alarms, chat intelligence, executive headhunter search, and much more — all in **12 languages**, with the core tools **free**.
+
+[🇬🇧 English](#features) · [🇹🇷 Türkçe](#türkçe)
 
 ---
 
-<!-- 🔍 SEO Keywords: Sim Companies extension, Sim Companies browser extension, Sim Companies helper, Sim Companies calculator, Sim Companies chrome extension, Sim Companies firefox extension, Sim Companies profit calculator, Sim Companies retail calculator, Sim Companies production calculator, Sim Companies market alerts, Sim Companies VWAP, Sim Companies contract manager, Sim Companies cashflow tracker, Sim Companies financial dashboard, Sim Companies chat filter, Sim Companies executive search, Sim Companies headhunter, Sim Companies building alarm, Sim Companies profit per hour, Sim Companies PPHPL calculator, Sim Companies top retail, Sim Companies realm stats, best Sim Companies tool, best Sim Companies extension, SimCo Manager, Sim Companies automation, Sim Companies companion, Sim Companies helper extension, Sim Companies market analysis, Sim Companies dark mode, Sim Companies sidebar, Sim Companies XP calculator, Sim Companies level up calculator -->
-
-## ⚡ Why SimCo Manager?
+## ⚡ Why use a Sim Companies extension?
 
 Most Sim Companies players rely on **spreadsheets, calculators, and manual math** to run their business. SimCo Manager eliminates that overhead entirely — it injects **real-time analysis tools directly into the game UI**, giving you an unfair advantage:
 
@@ -33,11 +33,13 @@ Most Sim Companies players rely on **spreadsheets, calculators, and manual math*
 | **Chat Deals** | Scroll through hundreds of messages | 💬 Filter buying/selling messages by product name |
 | **Selling Items** | Type chat messages manually | 📦 One-click sales/purchase message builder |
 
-> **20+ features** · **12 languages** · **Chrome & Firefox** · **100% free** · **No data collection**
+> **20+ features** · **12 languages** · **Chrome & Firefox** · **Free core tools** · **Privacy-first (reports opt-in)**
 
 ---
 
-## 🧩 Features at a Glance
+<a id="features"></a>
+
+## 🧩 Features at a Glance: Sim Companies Tools and Calculators
 
 ### 📋 Sidebar Menu
 
@@ -49,7 +51,7 @@ The extension adds a slim **icon rail** to the side of Sim Companies. Each icon 
 
 ---
 
-### 🏭 Production Helper
+### 🏭 Production Helper — Sim Companies Production Profit Calculator
 
 Analyze production costs, profit margins, and break-even prices **before you start producing**. The panel opens with a short summary (is it profitable, profit per hour, upgrade payback) and keeps the full breakdown one click away.
 
@@ -82,7 +84,7 @@ Plan **vertical integration**: pick a product and see which of its inputs are ch
 
 ---
 
-### 🛒 Retail Helper
+### 🛒 Retail Helper — Sim Companies Retail Profit Calculator
 
 Real-time retail profitability calculator. Shows **profit per minute**, per hour, and per day — plus live **Market Pulse** data with saturation and average retail price trends.
 
@@ -157,7 +159,7 @@ The most comprehensive **financial dashboard** available for Sim Companies. A co
 
 ---
 
-### 📈 VWAP Market Analysis
+### 📈 VWAP Market Analysis — Sim Companies Market Prices
 
 See instantly whether a market listing is **overpriced or underpriced** compared to the Volume-Weighted Average Price (VWAP). Color-coded badges appear directly on exchange listings.
 
@@ -386,7 +388,7 @@ SimCo Manager **automatically adapts** to your Sim Companies theme. Whether you 
 
 ### 👑 Supporter Theme (free)
 
-Like the extension? Paste a short line about SimCo Manager into your **Company Description**, press **"Verify & Unlock Supporter Theme"** under your description, and an exclusive Supporter Theme is unlocked — for free. Keep the text in your description to keep the theme. Paid support on Patreon is optional.
+Like the extension? Paste a short line about SimCo Manager into your **Company Description**, press **"Verify & Unlock Supporter Theme"** under your description, and an exclusive Supporter Theme is unlocked — for free. Keep the text in your description to keep the theme. The support text also earns **free Pro days**: every 4 days the text is seen on your profile give you one free Pro day. To count those days, the SimCo Manager server reads your company's public profile (the same page every player can open) about once a day. Paid support on Patreon is optional.
 
 ---
 
@@ -412,7 +414,7 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 
 ---
 
-## 📥 Installation
+## 📥 Install the Sim Companies Extension (Chrome & Firefox)
 
 > 📦 SimCo Manager is on the official stores. Install it from there and it updates itself.
 
@@ -420,6 +422,8 @@ SimCo Manager supports **12 languages** with full UI translation. The extension 
 | :--- | :--- |
 | Chrome, Edge, Brave, Opera, Vivaldi | **[Chrome Web Store](https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn)** |
 | Firefox (desktop) | **[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/simco-manager/)** |
+
+One link for every browser: **[api.simcomanager.dpdns.org/get](https://api.simcomanager.dpdns.org/get)** sends you to the right store.
 
 After installing, go to [simcompanies.com](https://www.simcompanies.com/): you'll see the SimCo Manager icon rail on the side!
 
@@ -437,19 +441,20 @@ GitHub downloads ended with v1.1.34. To switch:
 
 To provide the most advanced analytical experience, SimCo Manager utilizes specific browser permissions and industry-standard security practices. We believe in absolute transparency:
 
-- **`storage`**: Used to save your local UI preferences (Dark/Light theme, market alert thresholds, and cached layouts) directly on your device. This ensures a fast, backend-free experience for your settings.
+- **`storage`**: Your settings (Dark/Light theme, market alert thresholds, layouts), alarms and caches are saved in the browser's extension storage on your device.
 - **`alarms` / `notifications`**: Building Alarms remind you when a construction or production finishes.
 - **Host permissions**: only `simcompanies.com` (the game), `api.simcotools.com` (community market data) and `api.simcomanager.dpdns.org` (the extension's own server for calculations, premium and feedback).
 - **Domain Specific Content Scripts (`simcompanies.com`)**: The extension injects its UI overlay scripts ONLY into `simcompanies.com` (the main game). **No other websites are injected or tracked.**
 - **Server-side calculations**: the formulas of the paid panels run on the SimCo Manager server; the extension sends the game numbers a calculation needs and gets numbers back (no remote code). See the privacy policy for exactly what is sent.
-- **Sim Companies API only** — the extension reads publicly available game data. It does **not** automate any core gameplay actions.
+- **Reads, never plays** — the extension reads the game pages you open and the game's own API at `simcompanies.com`, using your existing login in the browser (your own company data plus public game data). It does **not** automate any gameplay actions.
+- **Opt-in reports** — error reports and anonymous usage statistics are off until you turn them on; feedback is sent only when you press Send. Your cookies and passwords are never sent anywhere. Full details: **[privacy policy](https://api.simcomanager.dpdns.org/privacy)**.
 
 ---
 
 ## 💬 Community & Support
 
-- 🗨️ **Reddit** — [Join the discussion on r/SimCompanies](https://www.reddit.com/r/SimCompanies/comments/1up3bi5/i_built_a_free_browser_extension_for_sim/)
-- 🐛 **Bug Reports** — [Open an issue on GitHub](https://github.com/MuhammetFurkanYilmaz/simco-manager/issues)
+- 🗨️ **Reddit** — [Join the discussion on r/SimCompanies](https://www.reddit.com/r/SimCompanies/comments/1y0ul3m/simco_manager_is_now_on_the_chrome_web_store_and/)
+- 🐛 **Bug Reports** — use the feedback panel in the extension (or [open an issue on GitHub](https://github.com/MuhammetFurkanYilmaz/simco-manager/issues))
 - ❤️ **Support Development** — [Support on Patreon](https://patreon.com/Furkan1)
 
 ---
@@ -459,19 +464,31 @@ To provide the most advanced analytical experience, SimCo Manager utilizes speci
 <details>
 <summary><strong>What is SimCo Manager?</strong></summary>
 <br>
-SimCo Manager is a free, feature-rich browser extension for Sim Companies — the online business simulation game. It adds 20+ analysis tools directly into the game interface, including profit calculators, a financial dashboard, market VWAP analysis, contract ranking, chat filters, building alarms, and more. It is the most comprehensive Sim Companies extension available, supporting 12 languages and both Chrome and Firefox browsers.
+SimCo Manager is a feature-rich browser extension for Sim Companies — the online business simulation game. It adds 20+ analysis tools directly into the game interface, including profit calculators, a financial dashboard, market VWAP analysis, contract ranking, chat filters, building alarms, and more. The core tools are free. It is the most comprehensive Sim Companies extension available, supporting 12 languages and both Chrome and Firefox browsers.
 </details>
 
 <details>
-<summary><strong>Is SimCo Manager the best Sim Companies extension?</strong></summary>
+<summary><strong>What is the best browser extension for Sim Companies?</strong></summary>
 <br>
-SimCo Manager is the most feature-rich extension for Sim Companies, with 20+ integrated tools covering production, retail, finance, market analysis, contracts, chat, executives, and building management. No other Sim Companies extension offers this breadth of functionality in a single package — all for free, in 12 languages, with zero data collection.
+SimCo Manager is an all-in-one Sim Companies extension with 20+ tools covering production, retail, finance, market prices, contracts, chat, executives and buildings in one package. It runs on Chrome, Edge, Brave, Opera, Vivaldi and Firefox, supports 12 languages, and its core tools are free. Install it from the <a href="https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn">Chrome Web Store</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/simco-manager/">Firefox Add-ons</a>.
+</details>
+
+<details>
+<summary><strong>Is there a profit calculator for Sim Companies?</strong></summary>
+<br>
+Yes. SimCo Manager adds a production profit calculator (cost per unit, market vs. contract profit, break-even prices and upgrade payback) on every production building, and a retail profit calculator that shows profit per minute, hour and day on every store. The Top Retail Calculator ranks the 10 most profitable products for each store type by profit per hour per level (PPHPL).
+</details>
+
+<details>
+<summary><strong>How can I track Sim Companies market prices?</strong></summary>
+<br>
+SimCo Manager shows a "Cheap" or "Expensive" badge on every exchange listing, compared with the volume-weighted average price (VWAP) for that product and quality. Market Alerts watch a product and quality in the background and send a browser notification when the price drops below your target. Chat alerts notify you when someone posts a matching buy or sell message in chat.
 </details>
 
 <details>
 <summary><strong>Is SimCo Manager free?</strong></summary>
 <br>
-Yes! SimCo Manager is completely free to use. It is a proprietary (closed-source) project, but there is no cost to download and use it. You can optionally support the developer on <a href="https://patreon.com/Furkan1">Patreon</a>.
+The basic tools are free. Some calculations need a <strong>Plus</strong> or <strong>Pro</strong> plan, which you can unlock on <a href="https://patreon.com/Furkan1">Patreon</a> or with the support text in your company profile: every 4 days the text is seen give you one free Pro day. It is a proprietary (closed-source) project; downloading and installing it costs nothing.
 </details>
 
 <details>
@@ -489,7 +506,7 @@ Yes! SimCo Manager supports all Chromium-based browsers. Install it from the <a 
 <details>
 <summary><strong>Is it against Sim Companies rules?</strong></summary>
 <br>
-SimCo Manager only reads publicly available data from the Sim Companies API and does not automate any gameplay actions. It is a passive analysis tool, similar to using a calculator or spreadsheet alongside the game. It does not click buttons, submit forms, or perform any automated actions on your behalf.
+SimCo Manager only reads data: the game pages you open and the game's own API, using your existing login (your own company data plus public game data). It does not automate any gameplay actions. It is a passive analysis tool, similar to using a calculator or spreadsheet alongside the game. It does not click buttons, submit forms, or perform any automated actions on your behalf.
 </details>
 
 <details>
@@ -513,7 +530,7 @@ PPHPL stands for Profit Per Hour Per Level — it's the standard metric for comp
 <details>
 <summary><strong>How do I report a bug or request a feature?</strong></summary>
 <br>
-Please open an <a href="https://github.com/MuhammetFurkanYilmaz/simco-manager/issues">issue on GitHub</a> with a description of the problem and steps to reproduce it. Feature requests are also welcome!
+Use the feedback panel in the extension — replies show up in its inbox — or open an <a href="https://github.com/MuhammetFurkanYilmaz/simco-manager/issues">issue on GitHub</a> with a description of the problem and steps to reproduce it. Feature requests are also welcome!
 </details>
 
 <details>
@@ -538,7 +555,7 @@ This software is developed by **Furkan** and all rights are reserved. This is a 
 
 # SimCo Manager — Sim Companies İçin En Kapsamlı Tarayıcı Eklentisi
 
-> **SimCo Manager**, popüler online iş simülasyonu oyunu [Sim Companies](https://www.simcompanies.com/) için geliştirilmiş, **20'den fazla güçlü araç** içeren bir yardımcı eklentidir. Gerçek zamanlı kâr hesaplayıcıları, kapsamlı finansal kontrol paneli, VWAP piyasa analizi, akıllı kontrat sıralama, bina alarmları, sohbet istihbaratı, yönetici arama ve çok daha fazlası — tamamını oyun arayüzünden ayrılmadan, **12 dilde** ve **ücretsiz** olarak kullanın.
+> **SimCo Manager**, popüler online iş simülasyonu oyunu [Sim Companies](https://www.simcompanies.com/) için geliştirilmiş, **20'den fazla güçlü araç** içeren bir yardımcı eklentidir. Gerçek zamanlı kâr hesaplayıcıları, kapsamlı finansal kontrol paneli, VWAP piyasa analizi, akıllı kontrat sıralama, bina alarmları, sohbet istihbaratı, yönetici arama ve çok daha fazlası — tamamını oyun arayüzünden ayrılmadan, **12 dilde** kullanın; temel araçlar **ücretsiz**.
 
 ---
 
@@ -724,7 +741,7 @@ Oyunun temasına otomatik uyum — her iki modda da mükemmel görünüm.
 </p>
 
 ### 👑 Destekçi Teması (Supporter Theme — ücretsiz)
-Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Açıklamanıza** yapıştırın, açıklamanın altındaki **"Verify & Unlock Supporter Theme"** butonuna basın ve özel Destekçi Temasını ücretsiz açın. Metin açıklamada kaldığı sürece tema aktif kalır. Patreon desteği isteğe bağlıdır.
+Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Açıklamanıza** yapıştırın, açıklamanın altındaki **"Verify & Unlock Supporter Theme"** butonuna basın ve özel Destekçi Temasını ücretsiz açın. Metin açıklamada kaldığı sürece tema aktif kalır. Destek metni ayrıca **ücretsiz Pro günleri** kazandırır: metin profilinizde 4 gün görüldükçe bir ücretsiz Pro günü alırsınız. Bu günleri saymak için SimCo Manager sunucusu şirketinizin herkese açık profilini (her oyuncunun açabildiği sayfa) günde yaklaşık bir kez okur. Patreon desteği isteğe bağlıdır.
 
 ### 🔄 Güncelleme Bildirimleri
 - **Otomatik güncelleme** — Chrome Web Mağazası ve Firefox Eklentileri SimCo Manager'ı sizin için güncel tutar.
@@ -732,7 +749,7 @@ Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Aç
 
 ---
 
-## 📥 Kurulum
+## 📥 Sim Companies Eklentisini Kurun (Chrome ve Firefox)
 
 > 📦 SimCo Manager resmi mağazalarda. Oradan kurun, kendiliğinden güncellenir.
 
@@ -740,6 +757,8 @@ Eklentiyi beğendiyseniz SimCo Manager hakkındaki kısa bir metni **Şirket Aç
 | :--- | :--- |
 | Chrome, Edge, Brave, Opera, Vivaldi | **[Chrome Web Mağazası](https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn)** |
 | Firefox (masaüstü) | **[Firefox Eklentileri](https://addons.mozilla.org/en-US/firefox/addon/simco-manager/)** |
+
+Tüm tarayıcılar için tek bağlantı: **[api.simcomanager.dpdns.org/get](https://api.simcomanager.dpdns.org/get)** sizi doğru mağazaya götürür.
 
 Kurduktan sonra [simcompanies.com](https://www.simcompanies.com/) adresine gidin: kenarda SimCo Manager ikon şeridini göreceksiniz!
 
@@ -757,19 +776,67 @@ GitHub'dan indirme v1.1.34 ile sona erdi. Geçmek için:
 
 SimCo Manager, en gelişmiş analiz deneyimini sunmak için belirli tarayıcı izinlerini ve endüstri standardı güvenlik uygulamalarını kullanır. Şeffaflığa önem veriyoruz:
 
-- **`storage`**: Yerel UI tercihlerinizi (Koyu/Açık tema, piyasa alarm sınırları ve önbelleğe alınmış düzenler) doğrudan cihazınıza kaydetmek için kullanılır. Bu, ayarlarınız için hızlı ve arka uç gerektirmeyen bir deneyim sağlar.
+- **`storage`**: Ayarlarınız (Koyu/Açık tema, piyasa alarm sınırları, düzenler), alarmlarınız ve önbellekler cihazınızda, tarayıcının eklenti deposunda saklanır.
 - **`alarms` / `notifications`**: Bina Alarmları, bir inşaat ya da üretim bittiğinde size hatırlatır.
 - **Ana bilgisayar izinleri**: yalnız `simcompanies.com` (oyun), `api.simcotools.com` (topluluk piyasa verisi) ve `api.simcomanager.dpdns.org` (hesaplar, premium ve geri bildirim için eklentinin kendi sunucusu).
 - **Etki Alanına Özgü İçerik Komut Dosyaları (`simcompanies.com`)**: Eklenti, UI katman betiklerini SADECE `simcompanies.com` (ana oyun) içine yerleştirir. **Başka hiçbir web sitesine kod enjekte edilmez veya izlenmez.**
 - **Sunucuda yapılan hesaplar**: ücretli panellerin formülleri SimCo Manager sunucusunda çalışır; eklenti hesabın gerektirdiği oyun sayılarını gönderir ve sayı geri alır (uzaktan kod yok). Tam olarak neyin gönderildiği gizlilik politikasında yazar.
+- **Okur, oynamaz** — eklenti açtığınız oyun sayfalarını ve oyunun kendi API'sini (`simcompanies.com`) tarayıcıdaki mevcut oturumunuzla okur (kendi şirket verileriniz ve herkese açık oyun verileri). Oyun içi hiçbir işlemi otomatik **yapmaz**.
+- **İsteğe bağlı raporlar** — hata raporları ve anonim kullanım istatistiği siz açana kadar kapalıdır; geri bildirim yalnız Gönder'e bastığınızda gider. Çerezleriniz ve şifreleriniz hiçbir yere gönderilmez. Tüm ayrıntılar: **[gizlilik politikası](https://api.simcomanager.dpdns.org/privacy)**.
 
 ---
 
 ## 💬 Topluluk ve Destek
 
-- 🗨️ **Reddit** — [r/SimCompanies'da tartışmaya katılın](https://www.reddit.com/r/SimCompanies/comments/1up3bi5/i_built_a_free_browser_extension_for_sim/)
-- 🐛 **Hata Bildirimi** — [GitHub'da issue açın](https://github.com/MuhammetFurkanYilmaz/simco-manager/issues)
+- 🗨️ **Reddit** — [r/SimCompanies'da tartışmaya katılın](https://www.reddit.com/r/SimCompanies/comments/1y0ul3m/simco_manager_is_now_on_the_chrome_web_store_and/)
+- 🐛 **Hata Bildirimi** — eklentideki geri bildirim panelini kullanın (ya da [GitHub'da issue açın](https://github.com/MuhammetFurkanYilmaz/simco-manager/issues))
 - ❤️ **Geliştirmeyi Destekle** — [Patreon'da destek ol](https://patreon.com/Furkan1)
+
+---
+
+## ❓ Sık Sorulan Sorular
+
+<details>
+<summary><strong>SimCo Manager ücretsiz mi?</strong></summary>
+<br>
+Temel araçlar ücretsizdir. Bazı hesaplar <strong>Plus</strong> ya da <strong>Pro</strong> plan ister; bunları <a href="https://patreon.com/Furkan1">Patreon</a> üzerinden ya da şirket profilinizdeki destek metniyle açabilirsiniz: metin 4 gün görüldükçe bir ücretsiz Pro günü kazanırsınız. Kapalı kaynak bir projedir; indirip kurmak ücretsizdir.
+</details>
+
+<details>
+<summary><strong>Verilerimi topluyor mu?</strong></summary>
+<br>
+Ayarlarınız ve oyun verileriniz tarayıcınızda kalır. Birkaç panel SimCo Manager sunucusunda hesaplanır; sunucu yalnız o hesabın gerektirdiği sayıları anonim bir kurulum kimliğiyle alır ve saklamaz. Hata raporları ve anonim kullanım istatistiği siz açmadıkça kapalıdır, geri bildirim yalnız Gönder'e bastığınızda gider. Çerezleriniz ve şifreleriniz hiçbir yere gönderilmez. Ayrıntılar: <a href="https://api.simcomanager.dpdns.org/privacy">gizlilik politikası</a>.
+</details>
+
+<details>
+<summary><strong>Sim Companies için en iyi eklenti hangisi?</strong></summary>
+<br>
+SimCo Manager; üretim, perakende, finans, piyasa fiyatları, kontratlar, sohbet, yöneticiler ve binalar için 20'den fazla aracı tek pakette sunan bir Sim Companies eklentisidir. Chrome, Edge, Brave, Opera, Vivaldi ve Firefox'ta çalışır, 12 dili destekler ve temel araçları ücretsizdir. <a href="https://chromewebstore.google.com/detail/mhfcldjjadgfcjbnijcdnfndbeemnahn">Chrome Web Mağazası</a> ya da <a href="https://addons.mozilla.org/en-US/firefox/addon/simco-manager/">Firefox Eklentileri</a>'nden kurabilirsiniz.
+</details>
+
+<details>
+<summary><strong>Sim Companies için kâr hesaplayıcı var mı?</strong></summary>
+<br>
+Evet. SimCo Manager her üretim binasına bir üretim kâr hesaplayıcısı (birim maliyet, piyasa ve kontrat kârı, başabaş fiyatları, yükseltmenin geri dönüşü), her mağazaya da dakika, saat ve gün başına kârı gösteren bir perakende kâr hesaplayıcısı ekler. En Kârlı Perakende Hesaplayıcı, her mağaza türü için en kârlı 10 ürünü PPHPL'ye (seviye başına saatlik kâr) göre sıralar.
+</details>
+
+<details>
+<summary><strong>Sim Companies piyasa fiyatlarını nasıl takip ederim?</strong></summary>
+<br>
+SimCo Manager borsadaki her ilanda, o ürün ve kalitenin hacim ağırlıklı ortalama fiyatına (VWAP) göre "Ucuz" ya da "Pahalı" rozeti gösterir. Piyasa Alarmları bir ürünü ve kaliteyi arka planda izler, fiyat hedefinizin altına düşünce tarayıcı bildirimi gönderir. Sohbet alarmları da biri eşleşen bir alım ya da satım mesajı yazdığında haber verir.
+</details>
+
+<details>
+<summary><strong>Sim Companies kurallarına aykırı mı?</strong></summary>
+<br>
+SimCo Manager yalnız veri okur: açtığınız oyun sayfalarını ve oyunun kendi API'sini mevcut oturumunuzla (kendi şirket verileriniz ve herkese açık oyun verileri). Buton tıklamaz, form göndermez, sizin yerinize hiçbir işlem yapmaz; oyunun yanında hesap makinesi ya da tablo kullanmak gibidir.
+</details>
+
+<details>
+<summary><strong>Hatayı nasıl bildiririm ya da özellik isterim?</strong></summary>
+<br>
+Eklentideki geri bildirim panelini kullanın — yanıtlar panelin gelen kutusunda görünür — ya da <a href="https://github.com/MuhammetFurkanYilmaz/simco-manager/issues">GitHub'da issue açın</a>.
+</details>
 
 ---
 
